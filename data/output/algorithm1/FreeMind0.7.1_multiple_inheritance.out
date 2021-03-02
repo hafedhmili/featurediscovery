@@ -1,0 +1,41 @@
+=====Multiple Inheritance Candidates for Projet FreeMind0.7.1=====
+	13 instances
+GOOD Type: freemind.controller.MapMouseMotionListener
+		extends: 
+		implements: java.awt.event.MouseMotionListener, java.awt.event.MouseListener, 
+GOOD: Type: freemind.controller.MindMapNodesSelection
+		extends: 
+		implements: java.awt.datatransfer.Transferable, java.awt.datatransfer.ClipboardOwner, 
+GOOD: Type: freemind.controller.NodeMouseMotionListener
+		extends: 
+		implements: java.awt.event.MouseMotionListener, java.awt.event.MouseListener, 
+GOOD: Type: freemind.main.FreeMind
+		extends: javax.swing.JFrame, 
+		implements: freemind.main.FreeMindMain, 
+GOOD Type: freemind.main.FreeMindApplet
+		extends: javax.swing.JApplet, 
+		implements: freemind.main.FreeMindMain, 
+ALMOST GOOD: Type: freemind.modes.LinkRegistryAdapter$ID_BlankAdapter
+		extends: freemind.modes.LinkRegistryAdapter.ID_BasicStateAdapter, 
+		implements: freemind.modes.MindMapLinkRegistry.ID_Blank, 
+ALMOST GOOD: Type: freemind.modes.LinkRegistryAdapter$ID_UsedStateAdapter
+		extends: freemind.modes.LinkRegistryAdapter.ID_BasicStateAdapter, 
+		implements: freemind.modes.MindMapLinkRegistry.ID_UsedState, 
+ALMOST GOOD: Type: freemind.modes.LinkRegistryAdapter$ID_RegisteredAdapter
+		extends: freemind.modes.LinkRegistryAdapter.ID_UsedStateAdapter, 
+		implements: freemind.modes.MindMapLinkRegistry.ID_Registered, 
+GOOD: Type: freemind.modes.LinkAdapter
+		extends: freemind.modes.LineAdapter, 
+		implements: freemind.modes.MindMapLink, 
+GOOD: Type: freemind.modes.EdgeAdapter
+		extends: freemind.modes.LineAdapter, 
+		implements: freemind.modes.MindMapEdge, 
+GOOD: Type: freemind.modes.ArrowLinkAdapter
+		extends: freemind.modes.LinkAdapter, 
+		implements: freemind.modes.MindMapArrowLink, 
+GOOD: Type: freemind.modes.CloudAdapter
+		extends: freemind.modes.LineAdapter, 
+		implements: freemind.modes.MindMapCloud, 
+GOOD: Type: freemind.view.mindmapview.MapView
+		extends: javax.swing.JPanel, 
+		implements: java.awt.print.Printable, 

@@ -1,0 +1,74 @@
+=====Multiple Inheritance Candidates for Projet JreversePro=====
+	24 instances
+GOOD but NOT INTERESTING: Type: jreversepro.JMainFrame
+		extends: javax.swing.JFrame, 
+		implements: java.awt.event.ActionListener, jreversepro.common.KeyWords, java.awt.event.WindowListener, jreversepro.common.AppConstants, 
+GOOD but NOT INTERESTING: Type: jreversepro.JAwtFrame
+		extends: java.awt.Frame, 
+		implements: java.awt.event.ActionListener, jreversepro.common.KeyWords, java.awt.event.WindowListener, jreversepro.common.AppConstants, 
+GOOD but NOT INTERESTING: Type: jreversepro.awtui.JErrorDlg
+		extends: java.awt.Dialog, 
+		implements: java.awt.event.ActionListener, 
+GOOD but NOT INTERESTING: Type: jreversepro.awtui.JDlgFont
+		extends: java.awt.Dialog, 
+		implements: java.awt.event.ItemListener, java.awt.event.ActionListener, 
+GOOD but NOT INTERESTING: Type: jreversepro.awtui.JJavaDocumentEditor
+		extends: javax.swing.JTextArea, 
+		implements: javax.swing.event.DocumentListener, 
+NOT GOOD (constant interface): Type: jreversepro.awtui.JDlgAbout
+		extends: java.awt.Dialog, 
+		implements: jreversepro.common.AppConstants, 
+GOOD but NOT INTERESTING: Type: jreversepro.gui.JErrorDlg
+		extends: javax.swing.JDialog, 
+		implements: java.awt.event.ActionListener, 
+NOT GOOD (constants interface): Type: jreversepro.gui.JDlgAbout
+		extends: javax.swing.JDialog, 
+		implements: jreversepro.common.AppConstants, 
+GOOD but NOT INTERESTING: Type: jreversepro.gui.JJavaDocumentEditor
+		extends: javax.swing.JTextArea, 
+		implements: javax.swing.event.DocumentListener, 
+GOOD but NOT INTERESTING: Type: jreversepro.gui.JCpDialog
+		extends: javax.swing.JDialog, 
+		implements: java.awt.event.ActionListener, java.awt.event.MouseListener, 
+GOOD but NOT INTERESTING: Type: jreversepro.gui.JStatusPanel
+		extends: javax.swing.JPanel, 
+		implements: java.awt.event.ActionListener, 
+GOOD but NOT INTERESTING: Type: jreversepro.gui.JDlgFont
+		extends: javax.swing.JDialog, 
+		implements: java.awt.event.ItemListener, java.awt.event.ActionListener, 
+NOT GOOD (constants interface): Type: jreversepro.reflect.JMethod
+		extends: jreversepro.reflect.JMember, 
+		implements: jreversepro.common.KeyWords, 
+NOT GOOD (constants interface): Type: jreversepro.reflect.JInstruction
+		extends: 
+		implements: jreversepro.common.JJvmOpcodes, jreversepro.common.KeyWords, 
+NOT GOOD (constants interface): Type: jreversepro.reflect.method.JCaseBlock
+		extends: jreversepro.reflect.method.JBlockObject, 
+		implements: jreversepro.common.KeyWords, 
+NOT GOOD (constants interface): Type: jreversepro.revengine.JBranchTable
+		extends: 
+		implements: jreversepro.revengine.BranchConstants, jreversepro.common.JJvmOpcodes, 
+NOT GOOD (constants interface): Type: jreversepro.revengine.JDecompiler
+		extends: 
+		implements: jreversepro.revengine.BranchConstants, jreversepro.common.KeyWords, jreversepro.revengine.JReverseEngineer, jreversepro.common.JJvmOpcodes, jreversepro.runtime.OperandConstants, 
+NOT GOOD (constants interface): Type: jreversepro.revengine.JSwitchTable
+		extends: 
+		implements: jreversepro.common.KeyWords, jreversepro.common.JJvmOpcodes, 
+NOT GOOD (constants interface): Type: jreversepro.revengine.JDisAssembler
+		extends: 
+		implements: jreversepro.revengine.JReverseEngineer, jreversepro.common.JJvmOpcodes, 
+NOT GOOD (constants interface): Type: jreversepro.revengine.JCollatingTable
+		extends: 
+		implements: jreversepro.revengine.BranchConstants, jreversepro.common.KeyWords, 
+NOT GOOD (constants interface): Type: jreversepro.revengine.JBranchEntry
+		extends: 
+		implements: jreversepro.common.KeyWords, jreversepro.revengine.BranchConstants, jreversepro.runtime.OperandConstants, 
+NOT GOOD (constants interface): Type: jreversepro.runtime.JRunTimeContext
+		extends: 
+		implements: jreversepro.common.KeyWords, jreversepro.revengine.BranchConstants, 
+NOT GOOD (constants interface): Type: jreversepro.runtime.JRunTimeFrame
+		extends: 
+		implements: jreversepro.common.KeyWords, jreversepro.runtime.OperandConstants, jreversepro.revengine.BranchConstants, jreversepro.common.JJvmOpcodes, 
+NOT GOOD (constants interface):Type: jreversepro.runtime.JOperandStack
+		extends: java.util.Stack, 
+		implements: jreversepro.common.KeyWords, jreversepro.runtime.OperandConstants, 
