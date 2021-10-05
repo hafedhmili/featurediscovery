@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_huhkMBf7Ed23JcMyMFMUCA" name="awtui">
+  <packagedElement xmi:type="uml:Package" xmi:id="_Y4btQBf7Ed23JcMyMFMUCA" name="jreversepro.awtui" clientDependency="_aSlXEhf7Ed23JcMyMFMUCA _aSuhAhf7Ed23JcMyMFMUCA _aSuhBRf7Ed23JcMyMFMUCA _aUhQwBf7Ed23JcMyMFMUCA _aYPTIBf7Ed23JcMyMFMUCA _aZbl8Bf7Ed23JcMyMFMUCA _abYGsBf7Ed23JcMyMFMUCA _acQ3gBf7Ed23JcMyMFMUCA _aeDnQBf7Ed23JcMyMFMUCA _ahofsBf7Ed23JcMyMFMUCA _aqbPUBf7Ed23JcMyMFMUCA">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Y4k3MBf7Ed23JcMyMFMUCA" name="JErrorDlg" clientDependency="_aQV7YRf7Ed23JcMyMFMUCA _aQfsYRf7Ed23JcMyMFMUCA _aQfsYxf7Ed23JcMyMFMUCA _aQpdYhf7Ed23JcMyMFMUCA _aQpdZBf7Ed23JcMyMFMUCA _aQynUhf7Ed23JcMyMFMUCA _aQynVRf7Ed23JcMyMFMUCA _aQ8YUBf7Ed23JcMyMFMUCA _aQ8YUxf7Ed23JcMyMFMUCA">
+      <generalization xmi:id="_aIvekxf7Ed23JcMyMFMUCA" general="_aIvekhf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_aIvelhf7Ed23JcMyMFMUCA" general="_aIvelRf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_aPJokBf7Ed23JcMyMFMUCA" name="hEIGHT" visibility="package" isLeaf="true" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aP5PdBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aP5Pcxf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aPdKkBf7Ed23JcMyMFMUCA" name="btnOk" visibility="package" type="_aPdKkRf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aQDAcRf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aQDAcBf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aPdKkhf7Ed23JcMyMFMUCA" name="txtDetails" visibility="package" type="_aPdKkxf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aQDAcxf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aQDAchf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aPdKlBf7Ed23JcMyMFMUCA" name="btnCancel" visibility="package" type="_aPdKkRf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aQDAdRf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aQDAdBf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aPdKlRf7Ed23JcMyMFMUCA" name="wIDTH" visibility="package" isLeaf="true" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aQDAdxf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aQDAdhf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_aPmUgBf7Ed23JcMyMFMUCA" name="JErrorDlg" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_aPmUghf7Ed23JcMyMFMUCA" name="parent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_aPwFgRf7Ed23JcMyMFMUCA" name="FileName" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_aPwFgxf7Ed23JcMyMFMUCA" name="_ex" type="_aPwFghf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aPwFhBf7Ed23JcMyMFMUCA" name="getStackTrace" visibility="private" concurrency="concurrent">
+        <ownedParameter xmi:id="_aPwFhRf7Ed23JcMyMFMUCA" name="_ex" type="_aPwFghf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_aPwFhhf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aPwFhxf7Ed23JcMyMFMUCA" name="actionPerformed" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_aP5PcRf7Ed23JcMyMFMUCA" name="e" type="_aP5PcBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aP5Pchf7Ed23JcMyMFMUCA" name="addComponents" visibility="private" concurrency="concurrent"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aS4SARf7Ed23JcMyMFMUCA" name="MainMenu" clientDependency="_aUEk0Bf7Ed23JcMyMFMUCA _aUEk0xf7Ed23JcMyMFMUCA _aUEk1hf7Ed23JcMyMFMUCA _aUOV0hf7Ed23JcMyMFMUCA _aUOV1Rf7Ed23JcMyMFMUCA _aUXfwhf7Ed23JcMyMFMUCA">
+      <generalization xmi:id="_aS4SAxf7Ed23JcMyMFMUCA" general="_aS4SAhf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_aTeH4Bf7Ed23JcMyMFMUCA" name="onOptions" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp5Rf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp5Bf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTeH4hf7Ed23JcMyMFMUCA" name="onViewCPool" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp5xf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp5hf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTeH5Bf7Ed23JcMyMFMUCA" name="onHelpAbout" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp6Rf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp6Bf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTeH5Rf7Ed23JcMyMFMUCA" name="onEditCut" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp6xf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp6hf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn44Bf7Ed23JcMyMFMUCA" name="onFileOpen" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp7Rf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp7Bf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn44Rf7Ed23JcMyMFMUCA" name="onHelp" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp7xf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp7hf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn44hf7Ed23JcMyMFMUCA" name="onFile" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp8Rf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp8Bf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn44xf7Ed23JcMyMFMUCA" name="onOptFont" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp8xf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp8hf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn45Bf7Ed23JcMyMFMUCA" name="onFileExit" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z0Rf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z0Bf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn45Rf7Ed23JcMyMFMUCA" name="onEdit" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z0xf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z0hf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn45hf7Ed23JcMyMFMUCA" name="onFileSave" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z1Rf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z1Bf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn45xf7Ed23JcMyMFMUCA" name="onView" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z1xf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z1hf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn46Bf7Ed23JcMyMFMUCA" name="onDisAssembler" visibility="public" type="_aTn46Rf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z2Rf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z2Bf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn46hf7Ed23JcMyMFMUCA" name="onEditCopy" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z2xf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z2hf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aTn46xf7Ed23JcMyMFMUCA" name="parent" visibility="package" type="_aPmUgRf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z3Rf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z3Bf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_aTn47Bf7Ed23JcMyMFMUCA" name="MainMenu" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_aTxp4Bf7Ed23JcMyMFMUCA" name="owner" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aTxp4Rf7Ed23JcMyMFMUCA" name="setFlag" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_aTxp4hf7Ed23JcMyMFMUCA" name="Rhs" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aTxp4xf7Ed23JcMyMFMUCA" name="initMenuItems" visibility="private" concurrency="concurrent"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aUqasRf7Ed23JcMyMFMUCA" name="JCustomListPanel" clientDependency="_aXWiWRf7Ed23JcMyMFMUCA _aXfsQhf7Ed23JcMyMFMUCA _aXfsRRf7Ed23JcMyMFMUCA _aXpdQhf7Ed23JcMyMFMUCA _aXpdRBf7Ed23JcMyMFMUCA _aXpdRxf7Ed23JcMyMFMUCA _aXzOQhf7Ed23JcMyMFMUCA _aXzORBf7Ed23JcMyMFMUCA _aX8YMhf7Ed23JcMyMFMUCA _aX8YNRf7Ed23JcMyMFMUCA">
+      <generalization xmi:id="_aWwFYRf7Ed23JcMyMFMUCA" general="_aWwFYBf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_aXDAUBf7Ed23JcMyMFMUCA" name="mLblList" visibility="private" type="_aXDAURf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXMxWxf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXMxWhf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aXDAUhf7Ed23JcMyMFMUCA" name="mTxtIndex" visibility="public" type="_aXDAUxf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXMxXRf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXMxXBf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aXMxUBf7Ed23JcMyMFMUCA" name="mChooseType" visibility="public" type="_aXMxURf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXMxXxf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXMxXhf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aXMxUhf7Ed23JcMyMFMUCA" name="mTxtSearch" visibility="public" type="_aXDAUxf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXWiUBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXMxYBf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aXMxUxf7Ed23JcMyMFMUCA" name="mLblGoto" visibility="private" type="_aXDAURf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXWiUhf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXWiURf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aXMxVBf7Ed23JcMyMFMUCA" name="mBtnFind" visibility="public" type="_aXMxVRf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXWiVBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXWiUxf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aXMxVhf7Ed23JcMyMFMUCA" name="mBtnGoto" visibility="public" type="_aXMxVRf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXWiVhf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXWiVRf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_aXMxVxf7Ed23JcMyMFMUCA" name="JCustomListPanel" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_aXMxWBf7Ed23JcMyMFMUCA" name="aMaxEntries">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aXMxWRf7Ed23JcMyMFMUCA" name="addComponents" visibility="private" concurrency="concurrent"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aYPTIhf7Ed23JcMyMFMUCA" name="JCustomFileChooser" clientDependency="_aZIrABf7Ed23JcMyMFMUCA _aZIrAxf7Ed23JcMyMFMUCA">
+      <generalization xmi:id="_aYi1IRf7Ed23JcMyMFMUCA" general="_aYi1IBf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_aY1wEBf7Ed23JcMyMFMUCA" name="mFileExtension" visibility="private" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aY_hGRf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aY_hGBf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aY_hEBf7Ed23JcMyMFMUCA" name="mFileDescription" visibility="private" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aY_hGxf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aY_hGhf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_aY_hFxf7Ed23JcMyMFMUCA" name="CustomFileFilter" visibility="package" clientDependency="_aqHtUBf7Ed23JcMyMFMUCA _aqHtUxf7Ed23JcMyMFMUCA">
+        <generalization xmi:id="_aprocRf7Ed23JcMyMFMUCA" general="_aprocBf7Ed23JcMyMFMUCA"/>
+        <ownedOperation xmi:id="_aprochf7Ed23JcMyMFMUCA" name="accept" visibility="public" concurrency="concurrent">
+          <ownedParameter xmi:id="_ap0yYBf7Ed23JcMyMFMUCA" name="aFilterFile" type="_ac3UdRf7Ed23JcMyMFMUCA"/>
+          <ownedParameter xmi:id="_ap0yYRf7Ed23JcMyMFMUCA" name="aName" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+          <ownedParameter xmi:id="_ap0yYhf7Ed23JcMyMFMUCA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </nestedClassifier>
+      <ownedOperation xmi:id="_aY_hERf7Ed23JcMyMFMUCA" name="JCustomFileChooser" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_aY_hEhf7Ed23JcMyMFMUCA" name="parent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_aY_hExf7Ed23JcMyMFMUCA" name="aTitle" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_aY_hFBf7Ed23JcMyMFMUCA" name="aFileExtension" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_aY_hFRf7Ed23JcMyMFMUCA" name="aDir" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_aY_hFhf7Ed23JcMyMFMUCA" name="mode">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aZbl8hf7Ed23JcMyMFMUCA" name="JJavaDocumentEditor" clientDependency="_abEkthf7Ed23JcMyMFMUCA">
+      <generalization xmi:id="_aan4wRf7Ed23JcMyMFMUCA" general="_aan4wBf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_aaxpwBf7Ed23JcMyMFMUCA" general="_aan4whf7Ed23JcMyMFMUCA"/>
+      <ownedOperation xmi:id="_aaxpwRf7Ed23JcMyMFMUCA" name="JJavaDocumentEditor" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_aaxpwhf7Ed23JcMyMFMUCA" name="removeUpdate" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_abEksRf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_abEkshf7Ed23JcMyMFMUCA" name="insertUpdate" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_abEksxf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_abEktBf7Ed23JcMyMFMUCA" name="changedUpdate" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_abEktRf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_abYGshf7Ed23JcMyMFMUCA" name="JDlgAbout" clientDependency="_ab0Lkhf7Ed23JcMyMFMUCA _ab0LlRf7Ed23JcMyMFMUCA _ab98kRf7Ed23JcMyMFMUCA _acHtkhf7Ed23JcMyMFMUCA">
+      <generalization xmi:id="_abhQoBf7Ed23JcMyMFMUCA" general="_aIvekhf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_abhQoxf7Ed23JcMyMFMUCA" general="_abhQohf7Ed23JcMyMFMUCA"/>
+      <ownedOperation xmi:id="_abrBoBf7Ed23JcMyMFMUCA" name="JDlgAbout" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ab0LkBf7Ed23JcMyMFMUCA" name="aParent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_ab0LkRf7Ed23JcMyMFMUCA" name="aTitle" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_acaogRf7Ed23JcMyMFMUCA" name="JClassEditPanel" clientDependency="_adKPZBf7Ed23JcMyMFMUCA _adUAYhf7Ed23JcMyMFMUCA _adUAZRf7Ed23JcMyMFMUCA _addKUhf7Ed23JcMyMFMUCA _addKVRf7Ed23JcMyMFMUCA _addKWBf7Ed23JcMyMFMUCA _adm7Uhf7Ed23JcMyMFMUCA _adm7VRf7Ed23JcMyMFMUCA _adwsUhf7Ed23JcMyMFMUCA _adwsVRf7Ed23JcMyMFMUCA _ad52QRf7Ed23JcMyMFMUCA">
+      <generalization xmi:id="_acaogxf7Ed23JcMyMFMUCA" general="_acaoghf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_ac3UcBf7Ed23JcMyMFMUCA" name="mAppFont" visibility="private" type="_aT6z3hf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_adAebhf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_adAebRf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ac3UcRf7Ed23JcMyMFMUCA" name="mTxtJava" visibility="private" type="_aPdKkxf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_adAecBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_adAebxf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ac3Uchf7Ed23JcMyMFMUCA" name="dEFAULT_FONT" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_adAechf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_adAecRf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_ac3Ucxf7Ed23JcMyMFMUCA" name="writeToFile" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ac3UdBf7Ed23JcMyMFMUCA" name="aParent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_adAeYBf7Ed23JcMyMFMUCA" name="aOutputFile" type="_ac3UdRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_adAeYRf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_adAeYhf7Ed23JcMyMFMUCA" name="confirmOverwrite" visibility="private" concurrency="concurrent">
+        <ownedParameter xmi:id="_adAeYxf7Ed23JcMyMFMUCA" name="aParent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_adAeZBf7Ed23JcMyMFMUCA" name="aOutputFile" type="_ac3UdRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_adAeZRf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_adAeZhf7Ed23JcMyMFMUCA" name="writeCode" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_adAeZxf7Ed23JcMyMFMUCA" name="aCode" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_adAeaBf7Ed23JcMyMFMUCA" name="setEditorFont" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_adAeaRf7Ed23JcMyMFMUCA" name="aFont" type="_aT6z3hf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_adAeahf7Ed23JcMyMFMUCA" name="getEditorFont" visibility="public" isLeaf="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_adAeaxf7Ed23JcMyMFMUCA" type="_aT6z3hf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_adAebBf7Ed23JcMyMFMUCA" name="JClassEditPanel" visibility="public" concurrency="concurrent"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aeMxMRf7Ed23JcMyMFMUCA" name="JDlgFont" clientDependency="_agSb7Bf7Ed23JcMyMFMUCA _agcM4hf7Ed23JcMyMFMUCA _agcM5Rf7Ed23JcMyMFMUCA _aglW0hf7Ed23JcMyMFMUCA _aglW1Rf7Ed23JcMyMFMUCA _agvH0hf7Ed23JcMyMFMUCA _agvH1Bf7Ed23JcMyMFMUCA _ag440hf7Ed23JcMyMFMUCA _ag441Rf7Ed23JcMyMFMUCA _ahCCwRf7Ed23JcMyMFMUCA _ahCCxBf7Ed23JcMyMFMUCA _ahCCxxf7Ed23JcMyMFMUCA _ahLzwRf7Ed23JcMyMFMUCA _ahLzxBf7Ed23JcMyMFMUCA _ahVkwhf7Ed23JcMyMFMUCA _ahVkxRf7Ed23JcMyMFMUCA">
+      <generalization xmi:id="_aezOIBf7Ed23JcMyMFMUCA" general="_aIvekhf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_ae8_IRf7Ed23JcMyMFMUCA" general="_ae8_IBf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_ae8_Ihf7Ed23JcMyMFMUCA" general="_aIvelRf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_afi1ABf7Ed23JcMyMFMUCA" name="btnOk" visibility="private" type="_aPdKkRf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agJR9Bf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR8xf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_afi1ARf7Ed23JcMyMFMUCA" name="fontNames" visibility="package" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_afi1Axf7Ed23JcMyMFMUCA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR9Rf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_afi1BBf7Ed23JcMyMFMUCA" name="btnCancel" visibility="private" type="_aPdKkRf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agJR9xf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR9hf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_afi1BRf7Ed23JcMyMFMUCA" name="cANCELLED" visibility="public" isLeaf="true" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agJR-Rf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR-Bf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_afi1Bhf7Ed23JcMyMFMUCA" name="lblTest" visibility="private" type="_afi1Bxf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agJR-xf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR-hf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_afi1CBf7Ed23JcMyMFMUCA" name="pREVIEW_SIZE" visibility="public" isLeaf="true" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb4Bf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR_Bf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_afi1CRf7Ed23JcMyMFMUCA" name="selection" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb4hf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agSb4Rf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_afi1Chf7Ed23JcMyMFMUCA" name="fontIndex" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb5Bf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agSb4xf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_afsmABf7Ed23JcMyMFMUCA" name="faces" visibility="private" type="_afsmARf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb5hf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agSb5Rf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_afsmAhf7Ed23JcMyMFMUCA" name="oPTIMUM_SIZE" visibility="public" isLeaf="true" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb6Bf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agSb5xf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_afsmAxf7Ed23JcMyMFMUCA" name="sELECTED" visibility="public" isLeaf="true" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb6hf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agSb6Rf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_afsmBBf7Ed23JcMyMFMUCA" name="actionPerformed" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_afsmBRf7Ed23JcMyMFMUCA" name="e" type="_aP5PcBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_afsmBhf7Ed23JcMyMFMUCA" name="itemStateChanged" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_af_g8Rf7Ed23JcMyMFMUCA" name="e" type="_af_g8Bf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_af_g8hf7Ed23JcMyMFMUCA" name="showFontDialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_af_g8xf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_af_g9Bf7Ed23JcMyMFMUCA" name="fillFontObjects" visibility="private" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_af_g9Rf7Ed23JcMyMFMUCA" name="getChosenFont" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_af_g9hf7Ed23JcMyMFMUCA" type="_aT6z3hf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_agJR8Bf7Ed23JcMyMFMUCA" name="JDlgFont" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_agJR8Rf7Ed23JcMyMFMUCA" name="owner" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_agJR8hf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Y4k3MBf7Ed23JcMyMFMUCA" name="JErrorDlg" clientDependency="_aQV7YRf7Ed23JcMyMFMUCA _aQfsYRf7Ed23JcMyMFMUCA _aQfsYxf7Ed23JcMyMFMUCA _aQpdYhf7Ed23JcMyMFMUCA _aQpdZBf7Ed23JcMyMFMUCA _aQynUhf7Ed23JcMyMFMUCA _aQynVRf7Ed23JcMyMFMUCA _aQ8YUBf7Ed23JcMyMFMUCA _aQ8YUxf7Ed23JcMyMFMUCA">
+    <generalization xmi:id="_aIvekxf7Ed23JcMyMFMUCA" general="_aIvekhf7Ed23JcMyMFMUCA"/>
+    <generalization xmi:id="_aIvelhf7Ed23JcMyMFMUCA" general="_aIvelRf7Ed23JcMyMFMUCA"/>
+    <ownedAttribute xmi:id="_aPJokBf7Ed23JcMyMFMUCA" name="hEIGHT" visibility="package" isLeaf="true" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aP5PdBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aP5Pcxf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aPdKkBf7Ed23JcMyMFMUCA" name="btnOk" visibility="package" type="_aPdKkRf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aQDAcRf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aQDAcBf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aPdKkhf7Ed23JcMyMFMUCA" name="txtDetails" visibility="package" type="_aPdKkxf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aQDAcxf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aQDAchf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aPdKlBf7Ed23JcMyMFMUCA" name="btnCancel" visibility="package" type="_aPdKkRf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aQDAdRf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aQDAdBf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aPdKlRf7Ed23JcMyMFMUCA" name="wIDTH" visibility="package" isLeaf="true" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aQDAdxf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aQDAdhf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_aPmUgBf7Ed23JcMyMFMUCA" name="JErrorDlg" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_aPmUghf7Ed23JcMyMFMUCA" name="parent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_aPwFgRf7Ed23JcMyMFMUCA" name="FileName" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_aPwFgxf7Ed23JcMyMFMUCA" name="_ex" type="_aPwFghf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_aPwFhBf7Ed23JcMyMFMUCA" name="getStackTrace" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_aPwFhRf7Ed23JcMyMFMUCA" name="_ex" type="_aPwFghf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_aPwFhhf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_aPwFhxf7Ed23JcMyMFMUCA" name="actionPerformed" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_aP5PcRf7Ed23JcMyMFMUCA" name="e" type="_aP5PcBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_aP5Pchf7Ed23JcMyMFMUCA" name="addComponents" visibility="private" concurrency="concurrent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_aQMxchf7Ed23JcMyMFMUCA" name="jreversepro.gui">
+    <packagedElement xmi:type="uml:Class" xmi:id="_aQV7YBf7Ed23JcMyMFMUCA" name="DlgClose"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aQV7YBf7Ed23JcMyMFMUCA" name="DlgClose"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_aSlXEBf7Ed23JcMyMFMUCA" name="javax.swing.event">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_aan4whf7Ed23JcMyMFMUCA" name="DocumentListener" isAbstract="true">
+      <generalization xmi:id="_aul9oRf7Ed23JcMyMFMUCA" general="_alqEEBf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_aul9ohf7Ed23JcMyMFMUCA" general="_alqEExf7Ed23JcMyMFMUCA"/>
+      <ownedOperation xmi:id="_au44kBf7Ed23JcMyMFMUCA" name="removeUpdate" visibility="public" isAbstract="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_au44kRf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_au44khf7Ed23JcMyMFMUCA" name="changedUpdate" visibility="public" isAbstract="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_au44kxf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_avCpkBf7Ed23JcMyMFMUCA" name="insertUpdate" visibility="public" isAbstract="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_avCpkRf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_abEksBf7Ed23JcMyMFMUCA" name="DocumentEvent" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_aSlXERf7Ed23JcMyMFMUCA" name="javax.swing">
+    <packagedElement xmi:type="uml:Class" xmi:id="_aWwFYBf7Ed23JcMyMFMUCA" name="JPanel">
+      <generalization xmi:id="_aoyQkRf7Ed23JcMyMFMUCA" general="_aoyQkBf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_ao7agBf7Ed23JcMyMFMUCA" general="_amZq9Bf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_apO8gBf7Ed23JcMyMFMUCA" name="uiClassID" visibility="private" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA" isReadOnly="true"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_aph3cxf7Ed23JcMyMFMUCA" name="AccessibleJPanel" visibility="protected"/>
+      <ownedOperation xmi:id="_apO8gRf7Ed23JcMyMFMUCA" name="JPanel" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_apO8ghf7Ed23JcMyMFMUCA" name="isDoubleBuffered">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_apO8gxf7Ed23JcMyMFMUCA" name="JPanel" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_apO8hBf7Ed23JcMyMFMUCA" name="updateUI" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_apO8hRf7Ed23JcMyMFMUCA" name="paramString" visibility="protected" concurrency="concurrent">
+        <ownedParameter xmi:id="_apO8hhf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_apO8hxf7Ed23JcMyMFMUCA" name="JPanel" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_apYGcBf7Ed23JcMyMFMUCA" name="layout" type="_apO8iBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_apYGcRf7Ed23JcMyMFMUCA" name="writeObject" visibility="private" concurrency="concurrent" raisedException="_anl9whf7Ed23JcMyMFMUCA">
+        <ownedParameter xmi:id="_apYGchf7Ed23JcMyMFMUCA" name="s" type="_ancMyRf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_apYGcxf7Ed23JcMyMFMUCA" name="setUI" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_apYGdhf7Ed23JcMyMFMUCA" name="ui" type="_apYGdRf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_apYGdxf7Ed23JcMyMFMUCA" name="getUI" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_apYGeBf7Ed23JcMyMFMUCA" type="_apYGdRf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_apYGeRf7Ed23JcMyMFMUCA" name="getAccessibleContext" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_apYGehf7Ed23JcMyMFMUCA" type="_akBFVBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_apYGexf7Ed23JcMyMFMUCA" name="JPanel" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_apYGfBf7Ed23JcMyMFMUCA" name="layout" type="_apO8iBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_aph3cBf7Ed23JcMyMFMUCA" name="isDoubleBuffered">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aph3cRf7Ed23JcMyMFMUCA" name="getUIClassID" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_aph3chf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aXDAURf7Ed23JcMyMFMUCA" name="JLabel"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aXDAUxf7Ed23JcMyMFMUCA" name="JTextField"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aXMxURf7Ed23JcMyMFMUCA" name="JComboBox"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aXMxVRf7Ed23JcMyMFMUCA" name="JButton"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aan4wBf7Ed23JcMyMFMUCA" name="JTextArea">
+      <generalization xmi:id="_ar6dFBf7Ed23JcMyMFMUCA" general="_ar6dExf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_asz08Bf7Ed23JcMyMFMUCA" name="columnWidth" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_asz08Rf7Ed23JcMyMFMUCA" name="word" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_asz08hf7Ed23JcMyMFMUCA" name="rows" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_as8-4Bf7Ed23JcMyMFMUCA" name="rowHeight" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_as8-4Rf7Ed23JcMyMFMUCA" name="columns" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_as8-4hf7Ed23JcMyMFMUCA" name="uiClassID" visibility="private" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA" isReadOnly="true"/>
+      <ownedAttribute xmi:id="_as8-4xf7Ed23JcMyMFMUCA" name="wrap" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_aul9oBf7Ed23JcMyMFMUCA" name="AccessibleJTextArea" visibility="protected"/>
+      <ownedOperation xmi:id="_as8-5Bf7Ed23JcMyMFMUCA" name="getPreferredScrollableViewportSize" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_as8-5hf7Ed23JcMyMFMUCA" type="_as8-5Rf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_as8-5xf7Ed23JcMyMFMUCA" name="getLineWrap" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_as8-6Bf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_as8-6Rf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atGv4Rf7Ed23JcMyMFMUCA" name="doc" type="_atGv4Bf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atGv4hf7Ed23JcMyMFMUCA" name="setColumns" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atGv4xf7Ed23JcMyMFMUCA" name="columns">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atGv5Bf7Ed23JcMyMFMUCA" name="getTabSize" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atGv5Rf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atGv5hf7Ed23JcMyMFMUCA" name="getRows" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atGv5xf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atGv6Bf7Ed23JcMyMFMUCA" name="getScrollableTracksViewportWidth" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atQg4Bf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atQg4Rf7Ed23JcMyMFMUCA" name="getUIClassID" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atQg4hf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atQg4xf7Ed23JcMyMFMUCA" name="writeObject" visibility="private" concurrency="concurrent" raisedException="_anl9whf7Ed23JcMyMFMUCA">
+        <ownedParameter xmi:id="_atQg5Bf7Ed23JcMyMFMUCA" name="s" type="_ancMyRf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atQg5Rf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atQg5hf7Ed23JcMyMFMUCA" name="text" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atQg5xf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atQg6Bf7Ed23JcMyMFMUCA" name="rows">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_atQg6Rf7Ed23JcMyMFMUCA" name="columns">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atQg6hf7Ed23JcMyMFMUCA" name="getWrapStyleWord" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atQg6xf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atQg7Bf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atZq0Bf7Ed23JcMyMFMUCA" name="text" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_atZq0Rf7Ed23JcMyMFMUCA" name="rows">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_atZq0hf7Ed23JcMyMFMUCA" name="columns">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atZq0xf7Ed23JcMyMFMUCA" name="insert" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atZq1Bf7Ed23JcMyMFMUCA" name="str" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_atZq1Rf7Ed23JcMyMFMUCA" name="pos">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atZq1hf7Ed23JcMyMFMUCA" name="getColumns" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atZq1xf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atZq2Bf7Ed23JcMyMFMUCA" name="append" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atZq2Rf7Ed23JcMyMFMUCA" name="str" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atZq2hf7Ed23JcMyMFMUCA" name="setRows" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atZq2xf7Ed23JcMyMFMUCA" name="rows">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atZq3Bf7Ed23JcMyMFMUCA" name="createDefaultModel" visibility="protected" concurrency="concurrent">
+        <ownedParameter xmi:id="_atZq3Rf7Ed23JcMyMFMUCA" type="_atGv4Bf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atZq3hf7Ed23JcMyMFMUCA" name="getScrollableUnitIncrement" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atjb0Rf7Ed23JcMyMFMUCA" name="visibleRect" type="_atjb0Bf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_atjb0hf7Ed23JcMyMFMUCA" name="orientation">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_atjb0xf7Ed23JcMyMFMUCA" name="direction">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_atjb1Bf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atjb1Rf7Ed23JcMyMFMUCA" name="getLineCount" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atjb1hf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atjb1xf7Ed23JcMyMFMUCA" name="setTabSize" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atjb2Bf7Ed23JcMyMFMUCA" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atjb2Rf7Ed23JcMyMFMUCA" name="setFont" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atjb2hf7Ed23JcMyMFMUCA" name="f" type="_aT6z3hf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atjb2xf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atslwBf7Ed23JcMyMFMUCA" name="doc" type="_atGv4Bf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_atslwRf7Ed23JcMyMFMUCA" name="text" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_atslwhf7Ed23JcMyMFMUCA" name="rows">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_atslwxf7Ed23JcMyMFMUCA" name="columns">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atslxBf7Ed23JcMyMFMUCA" name="getAccessibleContext" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atslxRf7Ed23JcMyMFMUCA" type="_akBFVBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atslxhf7Ed23JcMyMFMUCA" name="paramString" visibility="protected" concurrency="concurrent">
+        <ownedParameter xmi:id="_atslxxf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atslyBf7Ed23JcMyMFMUCA" name="setLineWrap" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_atslyRf7Ed23JcMyMFMUCA" name="wrap">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_atslyhf7Ed23JcMyMFMUCA" name="getLineOfOffset" visibility="public" concurrency="concurrent" raisedException="_auJRsBf7Ed23JcMyMFMUCA">
+        <ownedParameter xmi:id="_at2WwBf7Ed23JcMyMFMUCA" name="offset">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_at2WwRf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_auJRsRf7Ed23JcMyMFMUCA" name="getPreferredSize" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_auJRshf7Ed23JcMyMFMUCA" type="_as8-5Rf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_auJRsxf7Ed23JcMyMFMUCA" name="getRowHeight" visibility="protected" concurrency="concurrent">
+        <ownedParameter xmi:id="_auJRtBf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_auJRtRf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_auJRthf7Ed23JcMyMFMUCA" name="getLineStartOffset" visibility="public" concurrency="concurrent" raisedException="_auJRsBf7Ed23JcMyMFMUCA">
+        <ownedParameter xmi:id="_auJRtxf7Ed23JcMyMFMUCA" name="line">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_auJRuBf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_auJRuRf7Ed23JcMyMFMUCA" name="getLineEndOffset" visibility="public" concurrency="concurrent" raisedException="_auJRsBf7Ed23JcMyMFMUCA">
+        <ownedParameter xmi:id="_auJRuhf7Ed23JcMyMFMUCA" name="line">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_auJRuxf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_auJRvBf7Ed23JcMyMFMUCA" name="setWrapStyleWord" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_auTCsBf7Ed23JcMyMFMUCA" name="word">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_auTCsRf7Ed23JcMyMFMUCA" name="getColumnWidth" visibility="protected" concurrency="concurrent">
+        <ownedParameter xmi:id="_auTCshf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_auTCsxf7Ed23JcMyMFMUCA" name="replaceRange" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_auTCtBf7Ed23JcMyMFMUCA" name="str" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_auTCtRf7Ed23JcMyMFMUCA" name="start">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_auTCthf7Ed23JcMyMFMUCA" name="end">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aoyQkBf7Ed23JcMyMFMUCA" name="JComponent" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aS4SARf7Ed23JcMyMFMUCA" name="MainMenu" clientDependency="_aUEk0Bf7Ed23JcMyMFMUCA _aUEk0xf7Ed23JcMyMFMUCA _aUEk1hf7Ed23JcMyMFMUCA _aUOV0hf7Ed23JcMyMFMUCA _aUOV1Rf7Ed23JcMyMFMUCA _aUXfwhf7Ed23JcMyMFMUCA">
+    <generalization xmi:id="_aS4SAxf7Ed23JcMyMFMUCA" general="_aS4SAhf7Ed23JcMyMFMUCA"/>
+    <ownedAttribute xmi:id="_aTeH4Bf7Ed23JcMyMFMUCA" name="onOptions" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp5Rf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp5Bf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTeH4hf7Ed23JcMyMFMUCA" name="onViewCPool" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp5xf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp5hf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTeH5Bf7Ed23JcMyMFMUCA" name="onHelpAbout" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp6Rf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp6Bf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTeH5Rf7Ed23JcMyMFMUCA" name="onEditCut" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp6xf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp6hf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn44Bf7Ed23JcMyMFMUCA" name="onFileOpen" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp7Rf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp7Bf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn44Rf7Ed23JcMyMFMUCA" name="onHelp" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp7xf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp7hf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn44hf7Ed23JcMyMFMUCA" name="onFile" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp8Rf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp8Bf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn44xf7Ed23JcMyMFMUCA" name="onOptFont" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aTxp8xf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTxp8hf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn45Bf7Ed23JcMyMFMUCA" name="onFileExit" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z0Rf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z0Bf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn45Rf7Ed23JcMyMFMUCA" name="onEdit" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z0xf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z0hf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn45hf7Ed23JcMyMFMUCA" name="onFileSave" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z1Rf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z1Bf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn45xf7Ed23JcMyMFMUCA" name="onView" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z1xf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z1hf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn46Bf7Ed23JcMyMFMUCA" name="onDisAssembler" visibility="public" type="_aTn46Rf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z2Rf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z2Bf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn46hf7Ed23JcMyMFMUCA" name="onEditCopy" visibility="public" type="_aTeH4xf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z2xf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z2hf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aTn46xf7Ed23JcMyMFMUCA" name="parent" visibility="package" type="_aPmUgRf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aT6z3Rf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aT6z3Bf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_aTn47Bf7Ed23JcMyMFMUCA" name="MainMenu" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_aTxp4Bf7Ed23JcMyMFMUCA" name="owner" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_aTxp4Rf7Ed23JcMyMFMUCA" name="setFlag" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_aTxp4hf7Ed23JcMyMFMUCA" name="Rhs" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_aTxp4xf7Ed23JcMyMFMUCA" name="initMenuItems" visibility="private" concurrency="concurrent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aUqasRf7Ed23JcMyMFMUCA" name="JCustomListPanel" clientDependency="_aXWiWRf7Ed23JcMyMFMUCA _aXfsQhf7Ed23JcMyMFMUCA _aXfsRRf7Ed23JcMyMFMUCA _aXpdQhf7Ed23JcMyMFMUCA _aXpdRBf7Ed23JcMyMFMUCA _aXpdRxf7Ed23JcMyMFMUCA _aXzOQhf7Ed23JcMyMFMUCA _aXzORBf7Ed23JcMyMFMUCA _aX8YMhf7Ed23JcMyMFMUCA _aX8YNRf7Ed23JcMyMFMUCA">
+    <generalization xmi:id="_aWwFYRf7Ed23JcMyMFMUCA" general="_aWwFYBf7Ed23JcMyMFMUCA"/>
+    <ownedAttribute xmi:id="_aXDAUBf7Ed23JcMyMFMUCA" name="mLblList" visibility="private" type="_aXDAURf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXMxWxf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXMxWhf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aXDAUhf7Ed23JcMyMFMUCA" name="mTxtIndex" visibility="public" type="_aXDAUxf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXMxXRf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXMxXBf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aXMxUBf7Ed23JcMyMFMUCA" name="mChooseType" visibility="public" type="_aXMxURf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXMxXxf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXMxXhf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aXMxUhf7Ed23JcMyMFMUCA" name="mTxtSearch" visibility="public" type="_aXDAUxf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXWiUBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXMxYBf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aXMxUxf7Ed23JcMyMFMUCA" name="mLblGoto" visibility="private" type="_aXDAURf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXWiUhf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXWiURf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aXMxVBf7Ed23JcMyMFMUCA" name="mBtnFind" visibility="public" type="_aXMxVRf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXWiVBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXWiUxf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aXMxVhf7Ed23JcMyMFMUCA" name="mBtnGoto" visibility="public" type="_aXMxVRf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aXWiVhf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aXWiVRf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_aXMxVxf7Ed23JcMyMFMUCA" name="JCustomListPanel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_aXMxWBf7Ed23JcMyMFMUCA" name="aMaxEntries">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_aXMxWRf7Ed23JcMyMFMUCA" name="addComponents" visibility="private" concurrency="concurrent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aWwFYBf7Ed23JcMyMFMUCA" name="JPanel">
+    <generalization xmi:id="_aoyQkRf7Ed23JcMyMFMUCA" general="_aoyQkBf7Ed23JcMyMFMUCA"/>
+    <generalization xmi:id="_ao7agBf7Ed23JcMyMFMUCA" general="_amZq9Bf7Ed23JcMyMFMUCA"/>
+    <ownedAttribute xmi:id="_apO8gBf7Ed23JcMyMFMUCA" name="uiClassID" visibility="private" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA" isReadOnly="true"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_aph3cxf7Ed23JcMyMFMUCA" name="AccessibleJPanel" visibility="protected"/>
+    <ownedOperation xmi:id="_apO8gRf7Ed23JcMyMFMUCA" name="JPanel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_apO8ghf7Ed23JcMyMFMUCA" name="isDoubleBuffered">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_apO8gxf7Ed23JcMyMFMUCA" name="JPanel" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_apO8hBf7Ed23JcMyMFMUCA" name="updateUI" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_apO8hRf7Ed23JcMyMFMUCA" name="paramString" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_apO8hhf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_apO8hxf7Ed23JcMyMFMUCA" name="JPanel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_apYGcBf7Ed23JcMyMFMUCA" name="layout" type="_apO8iBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_apYGcRf7Ed23JcMyMFMUCA" name="writeObject" visibility="private" concurrency="concurrent" raisedException="_anl9whf7Ed23JcMyMFMUCA">
+      <ownedParameter xmi:id="_apYGchf7Ed23JcMyMFMUCA" name="s" type="_ancMyRf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_apYGcxf7Ed23JcMyMFMUCA" name="setUI" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_apYGdhf7Ed23JcMyMFMUCA" name="ui" type="_apYGdRf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_apYGdxf7Ed23JcMyMFMUCA" name="getUI" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_apYGeBf7Ed23JcMyMFMUCA" type="_apYGdRf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_apYGeRf7Ed23JcMyMFMUCA" name="getAccessibleContext" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_apYGehf7Ed23JcMyMFMUCA" type="_akBFVBf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_apYGexf7Ed23JcMyMFMUCA" name="JPanel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_apYGfBf7Ed23JcMyMFMUCA" name="layout" type="_apO8iBf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_aph3cBf7Ed23JcMyMFMUCA" name="isDoubleBuffered">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_aph3cRf7Ed23JcMyMFMUCA" name="getUIClassID" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_aph3chf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aXDAURf7Ed23JcMyMFMUCA" name="JLabel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aXDAUxf7Ed23JcMyMFMUCA" name="JTextField"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aXMxURf7Ed23JcMyMFMUCA" name="JComboBox"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aXMxVRf7Ed23JcMyMFMUCA" name="JButton"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aYPTIhf7Ed23JcMyMFMUCA" name="JCustomFileChooser" clientDependency="_aZIrABf7Ed23JcMyMFMUCA _aZIrAxf7Ed23JcMyMFMUCA">
+    <generalization xmi:id="_aYi1IRf7Ed23JcMyMFMUCA" general="_aYi1IBf7Ed23JcMyMFMUCA"/>
+    <ownedAttribute xmi:id="_aY1wEBf7Ed23JcMyMFMUCA" name="mFileExtension" visibility="private" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aY_hGRf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aY_hGBf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aY_hEBf7Ed23JcMyMFMUCA" name="mFileDescription" visibility="private" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aY_hGxf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aY_hGhf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_aY_hFxf7Ed23JcMyMFMUCA" name="CustomFileFilter" visibility="package" clientDependency="_aqHtUBf7Ed23JcMyMFMUCA _aqHtUxf7Ed23JcMyMFMUCA">
+      <generalization xmi:id="_aprocRf7Ed23JcMyMFMUCA" general="_aprocBf7Ed23JcMyMFMUCA"/>
+      <ownedOperation xmi:id="_aprochf7Ed23JcMyMFMUCA" name="accept" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ap0yYBf7Ed23JcMyMFMUCA" name="aFilterFile" type="_ac3UdRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_ap0yYRf7Ed23JcMyMFMUCA" name="aName" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_ap0yYhf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </nestedClassifier>
+    <ownedOperation xmi:id="_aY_hERf7Ed23JcMyMFMUCA" name="JCustomFileChooser" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_aY_hEhf7Ed23JcMyMFMUCA" name="parent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_aY_hExf7Ed23JcMyMFMUCA" name="aTitle" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_aY_hFBf7Ed23JcMyMFMUCA" name="aFileExtension" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_aY_hFRf7Ed23JcMyMFMUCA" name="aDir" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_aY_hFhf7Ed23JcMyMFMUCA" name="mode">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aZbl8hf7Ed23JcMyMFMUCA" name="JJavaDocumentEditor" clientDependency="_abEkthf7Ed23JcMyMFMUCA">
+    <generalization xmi:id="_aan4wRf7Ed23JcMyMFMUCA" general="_aan4wBf7Ed23JcMyMFMUCA"/>
+    <generalization xmi:id="_aaxpwBf7Ed23JcMyMFMUCA" general="_aan4whf7Ed23JcMyMFMUCA"/>
+    <ownedOperation xmi:id="_aaxpwRf7Ed23JcMyMFMUCA" name="JJavaDocumentEditor" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_aaxpwhf7Ed23JcMyMFMUCA" name="removeUpdate" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_abEksRf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_abEkshf7Ed23JcMyMFMUCA" name="insertUpdate" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_abEksxf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_abEktBf7Ed23JcMyMFMUCA" name="changedUpdate" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_abEktRf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aan4wBf7Ed23JcMyMFMUCA" name="JTextArea">
+    <generalization xmi:id="_ar6dFBf7Ed23JcMyMFMUCA" general="_ar6dExf7Ed23JcMyMFMUCA"/>
+    <ownedAttribute xmi:id="_asz08Bf7Ed23JcMyMFMUCA" name="columnWidth" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_asz08Rf7Ed23JcMyMFMUCA" name="word" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_asz08hf7Ed23JcMyMFMUCA" name="rows" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_as8-4Bf7Ed23JcMyMFMUCA" name="rowHeight" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_as8-4Rf7Ed23JcMyMFMUCA" name="columns" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_as8-4hf7Ed23JcMyMFMUCA" name="uiClassID" visibility="private" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA" isReadOnly="true"/>
+    <ownedAttribute xmi:id="_as8-4xf7Ed23JcMyMFMUCA" name="wrap" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_aul9oBf7Ed23JcMyMFMUCA" name="AccessibleJTextArea" visibility="protected"/>
+    <ownedOperation xmi:id="_as8-5Bf7Ed23JcMyMFMUCA" name="getPreferredScrollableViewportSize" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_as8-5hf7Ed23JcMyMFMUCA" type="_as8-5Rf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_as8-5xf7Ed23JcMyMFMUCA" name="getLineWrap" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_as8-6Bf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_as8-6Rf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atGv4Rf7Ed23JcMyMFMUCA" name="doc" type="_atGv4Bf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atGv4hf7Ed23JcMyMFMUCA" name="setColumns" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atGv4xf7Ed23JcMyMFMUCA" name="columns">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atGv5Bf7Ed23JcMyMFMUCA" name="getTabSize" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atGv5Rf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atGv5hf7Ed23JcMyMFMUCA" name="getRows" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atGv5xf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atGv6Bf7Ed23JcMyMFMUCA" name="getScrollableTracksViewportWidth" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atQg4Bf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atQg4Rf7Ed23JcMyMFMUCA" name="getUIClassID" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atQg4hf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atQg4xf7Ed23JcMyMFMUCA" name="writeObject" visibility="private" concurrency="concurrent" raisedException="_anl9whf7Ed23JcMyMFMUCA">
+      <ownedParameter xmi:id="_atQg5Bf7Ed23JcMyMFMUCA" name="s" type="_ancMyRf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atQg5Rf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atQg5hf7Ed23JcMyMFMUCA" name="text" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atQg5xf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atQg6Bf7Ed23JcMyMFMUCA" name="rows">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_atQg6Rf7Ed23JcMyMFMUCA" name="columns">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atQg6hf7Ed23JcMyMFMUCA" name="getWrapStyleWord" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atQg6xf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atQg7Bf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atZq0Bf7Ed23JcMyMFMUCA" name="text" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_atZq0Rf7Ed23JcMyMFMUCA" name="rows">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_atZq0hf7Ed23JcMyMFMUCA" name="columns">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atZq0xf7Ed23JcMyMFMUCA" name="insert" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atZq1Bf7Ed23JcMyMFMUCA" name="str" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_atZq1Rf7Ed23JcMyMFMUCA" name="pos">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atZq1hf7Ed23JcMyMFMUCA" name="getColumns" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atZq1xf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atZq2Bf7Ed23JcMyMFMUCA" name="append" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atZq2Rf7Ed23JcMyMFMUCA" name="str" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atZq2hf7Ed23JcMyMFMUCA" name="setRows" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atZq2xf7Ed23JcMyMFMUCA" name="rows">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atZq3Bf7Ed23JcMyMFMUCA" name="createDefaultModel" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_atZq3Rf7Ed23JcMyMFMUCA" type="_atGv4Bf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atZq3hf7Ed23JcMyMFMUCA" name="getScrollableUnitIncrement" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atjb0Rf7Ed23JcMyMFMUCA" name="visibleRect" type="_atjb0Bf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_atjb0hf7Ed23JcMyMFMUCA" name="orientation">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_atjb0xf7Ed23JcMyMFMUCA" name="direction">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_atjb1Bf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atjb1Rf7Ed23JcMyMFMUCA" name="getLineCount" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atjb1hf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atjb1xf7Ed23JcMyMFMUCA" name="setTabSize" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atjb2Bf7Ed23JcMyMFMUCA" name="size">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atjb2Rf7Ed23JcMyMFMUCA" name="setFont" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atjb2hf7Ed23JcMyMFMUCA" name="f" type="_aT6z3hf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atjb2xf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atslwBf7Ed23JcMyMFMUCA" name="doc" type="_atGv4Bf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_atslwRf7Ed23JcMyMFMUCA" name="text" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_atslwhf7Ed23JcMyMFMUCA" name="rows">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_atslwxf7Ed23JcMyMFMUCA" name="columns">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atslxBf7Ed23JcMyMFMUCA" name="getAccessibleContext" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atslxRf7Ed23JcMyMFMUCA" type="_akBFVBf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atslxhf7Ed23JcMyMFMUCA" name="paramString" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_atslxxf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atslyBf7Ed23JcMyMFMUCA" name="setLineWrap" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_atslyRf7Ed23JcMyMFMUCA" name="wrap">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_atslyhf7Ed23JcMyMFMUCA" name="getLineOfOffset" visibility="public" concurrency="concurrent" raisedException="_auJRsBf7Ed23JcMyMFMUCA">
+      <ownedParameter xmi:id="_at2WwBf7Ed23JcMyMFMUCA" name="offset">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_at2WwRf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_auJRsRf7Ed23JcMyMFMUCA" name="getPreferredSize" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_auJRshf7Ed23JcMyMFMUCA" type="_as8-5Rf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_auJRsxf7Ed23JcMyMFMUCA" name="getRowHeight" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_auJRtBf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_auJRtRf7Ed23JcMyMFMUCA" name="JTextArea" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_auJRthf7Ed23JcMyMFMUCA" name="getLineStartOffset" visibility="public" concurrency="concurrent" raisedException="_auJRsBf7Ed23JcMyMFMUCA">
+      <ownedParameter xmi:id="_auJRtxf7Ed23JcMyMFMUCA" name="line">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_auJRuBf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_auJRuRf7Ed23JcMyMFMUCA" name="getLineEndOffset" visibility="public" concurrency="concurrent" raisedException="_auJRsBf7Ed23JcMyMFMUCA">
+      <ownedParameter xmi:id="_auJRuhf7Ed23JcMyMFMUCA" name="line">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_auJRuxf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_auJRvBf7Ed23JcMyMFMUCA" name="setWrapStyleWord" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_auTCsBf7Ed23JcMyMFMUCA" name="word">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_auTCsRf7Ed23JcMyMFMUCA" name="getColumnWidth" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_auTCshf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_auTCsxf7Ed23JcMyMFMUCA" name="replaceRange" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_auTCtBf7Ed23JcMyMFMUCA" name="str" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_auTCtRf7Ed23JcMyMFMUCA" name="start">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_auTCthf7Ed23JcMyMFMUCA" name="end">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_aan4whf7Ed23JcMyMFMUCA" name="DocumentListener" isAbstract="true">
+    <generalization xmi:id="_aul9oRf7Ed23JcMyMFMUCA" general="_alqEEBf7Ed23JcMyMFMUCA"/>
+    <generalization xmi:id="_aul9ohf7Ed23JcMyMFMUCA" general="_alqEExf7Ed23JcMyMFMUCA"/>
+    <ownedOperation xmi:id="_au44kBf7Ed23JcMyMFMUCA" name="removeUpdate" visibility="public" isAbstract="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_au44kRf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_au44khf7Ed23JcMyMFMUCA" name="changedUpdate" visibility="public" isAbstract="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_au44kxf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_avCpkBf7Ed23JcMyMFMUCA" name="insertUpdate" visibility="public" isAbstract="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_avCpkRf7Ed23JcMyMFMUCA" name="e" type="_abEksBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_abEksBf7Ed23JcMyMFMUCA" name="DocumentEvent" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_abYGshf7Ed23JcMyMFMUCA" name="JDlgAbout" clientDependency="_ab0Lkhf7Ed23JcMyMFMUCA _ab0LlRf7Ed23JcMyMFMUCA _ab98kRf7Ed23JcMyMFMUCA _acHtkhf7Ed23JcMyMFMUCA">
+    <generalization xmi:id="_abhQoBf7Ed23JcMyMFMUCA" general="_aIvekhf7Ed23JcMyMFMUCA"/>
+    <generalization xmi:id="_abhQoxf7Ed23JcMyMFMUCA" general="_abhQohf7Ed23JcMyMFMUCA"/>
+    <ownedOperation xmi:id="_abrBoBf7Ed23JcMyMFMUCA" name="JDlgAbout" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ab0LkBf7Ed23JcMyMFMUCA" name="aParent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_ab0LkRf7Ed23JcMyMFMUCA" name="aTitle" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_abhQoRf7Ed23JcMyMFMUCA" name="jreversepro.common">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_abhQohf7Ed23JcMyMFMUCA" name="AppConstants" clientDependency="_awFLYBf7Ed23JcMyMFMUCA _awFLYxf7Ed23JcMyMFMUCA">
+      <ownedAttribute xmi:id="_avpGgBf7Ed23JcMyMFMUCA" name="mAGIC" visibility="public" isLeaf="true" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQdBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQcxf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avpGgRf7Ed23JcMyMFMUCA" name="yPOS" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQdhf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQdRf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avpGghf7Ed23JcMyMFMUCA" name="xSIZE" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQeBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQdxf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avpGgxf7Ed23JcMyMFMUCA" name="vERSION" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQehf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQeRf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avpGhBf7Ed23JcMyMFMUCA" name="fONT" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQfBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQexf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avpGhRf7Ed23JcMyMFMUCA" name="gPL_INFO" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQfhf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQfRf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avpGhhf7Ed23JcMyMFMUCA" name="pROP_HEADING" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQgBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQfxf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avpGhxf7Ed23JcMyMFMUCA" name="dECOMPILE_FLAG" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQghf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQgRf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avpGiBf7Ed23JcMyMFMUCA" name="xPOS" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_av8BcBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQgxf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avpGiRf7Ed23JcMyMFMUCA" name="pROP_FILE" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_av8Bchf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_av8BcRf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avyQcBf7Ed23JcMyMFMUCA" name="ySIZE" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_av8BdBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_av8Bcxf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avyQcRf7Ed23JcMyMFMUCA" name="tITLE" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_av8Bdhf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_av8BdRf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_avyQchf7Ed23JcMyMFMUCA" name="l_AND_F" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_av8BeBf7Ed23JcMyMFMUCA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_av8Bdxf7Ed23JcMyMFMUCA"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_abhQohf7Ed23JcMyMFMUCA" name="AppConstants" clientDependency="_awFLYBf7Ed23JcMyMFMUCA _awFLYxf7Ed23JcMyMFMUCA">
+    <ownedAttribute xmi:id="_avpGgBf7Ed23JcMyMFMUCA" name="mAGIC" visibility="public" isLeaf="true" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQdBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQcxf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avpGgRf7Ed23JcMyMFMUCA" name="yPOS" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQdhf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQdRf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avpGghf7Ed23JcMyMFMUCA" name="xSIZE" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQeBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQdxf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avpGgxf7Ed23JcMyMFMUCA" name="vERSION" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQehf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQeRf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avpGhBf7Ed23JcMyMFMUCA" name="fONT" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQfBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQexf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avpGhRf7Ed23JcMyMFMUCA" name="gPL_INFO" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQfhf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQfRf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avpGhhf7Ed23JcMyMFMUCA" name="pROP_HEADING" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQgBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQfxf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avpGhxf7Ed23JcMyMFMUCA" name="dECOMPILE_FLAG" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_avyQghf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQgRf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avpGiBf7Ed23JcMyMFMUCA" name="xPOS" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_av8BcBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_avyQgxf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avpGiRf7Ed23JcMyMFMUCA" name="pROP_FILE" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_av8Bchf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_av8BcRf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avyQcBf7Ed23JcMyMFMUCA" name="ySIZE" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_av8BdBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_av8Bcxf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avyQcRf7Ed23JcMyMFMUCA" name="tITLE" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_av8Bdhf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_av8BdRf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_avyQchf7Ed23JcMyMFMUCA" name="l_AND_F" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_av8BeBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_av8Bdxf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_acaogRf7Ed23JcMyMFMUCA" name="JClassEditPanel" clientDependency="_adKPZBf7Ed23JcMyMFMUCA _adUAYhf7Ed23JcMyMFMUCA _adUAZRf7Ed23JcMyMFMUCA _addKUhf7Ed23JcMyMFMUCA _addKVRf7Ed23JcMyMFMUCA _addKWBf7Ed23JcMyMFMUCA _adm7Uhf7Ed23JcMyMFMUCA _adm7VRf7Ed23JcMyMFMUCA _adwsUhf7Ed23JcMyMFMUCA _adwsVRf7Ed23JcMyMFMUCA _ad52QRf7Ed23JcMyMFMUCA">
+    <generalization xmi:id="_acaogxf7Ed23JcMyMFMUCA" general="_acaoghf7Ed23JcMyMFMUCA"/>
+    <ownedAttribute xmi:id="_ac3UcBf7Ed23JcMyMFMUCA" name="mAppFont" visibility="private" type="_aT6z3hf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_adAebhf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_adAebRf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ac3UcRf7Ed23JcMyMFMUCA" name="mTxtJava" visibility="private" type="_aPdKkxf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_adAecBf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_adAebxf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ac3Uchf7Ed23JcMyMFMUCA" name="dEFAULT_FONT" visibility="public" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_adAechf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_adAecRf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ac3Ucxf7Ed23JcMyMFMUCA" name="writeToFile" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ac3UdBf7Ed23JcMyMFMUCA" name="aParent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_adAeYBf7Ed23JcMyMFMUCA" name="aOutputFile" type="_ac3UdRf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_adAeYRf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_adAeYhf7Ed23JcMyMFMUCA" name="confirmOverwrite" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_adAeYxf7Ed23JcMyMFMUCA" name="aParent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_adAeZBf7Ed23JcMyMFMUCA" name="aOutputFile" type="_ac3UdRf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_adAeZRf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_adAeZhf7Ed23JcMyMFMUCA" name="writeCode" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_adAeZxf7Ed23JcMyMFMUCA" name="aCode" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_adAeaBf7Ed23JcMyMFMUCA" name="setEditorFont" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_adAeaRf7Ed23JcMyMFMUCA" name="aFont" type="_aT6z3hf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_adAeahf7Ed23JcMyMFMUCA" name="getEditorFont" visibility="public" isLeaf="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_adAeaxf7Ed23JcMyMFMUCA" type="_aT6z3hf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_adAebBf7Ed23JcMyMFMUCA" name="JClassEditPanel" visibility="public" concurrency="concurrent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aeMxMRf7Ed23JcMyMFMUCA" name="JDlgFont" clientDependency="_agSb7Bf7Ed23JcMyMFMUCA _agcM4hf7Ed23JcMyMFMUCA _agcM5Rf7Ed23JcMyMFMUCA _aglW0hf7Ed23JcMyMFMUCA _aglW1Rf7Ed23JcMyMFMUCA _agvH0hf7Ed23JcMyMFMUCA _agvH1Bf7Ed23JcMyMFMUCA _ag440hf7Ed23JcMyMFMUCA _ag441Rf7Ed23JcMyMFMUCA _ahCCwRf7Ed23JcMyMFMUCA _ahCCxBf7Ed23JcMyMFMUCA _ahCCxxf7Ed23JcMyMFMUCA _ahLzwRf7Ed23JcMyMFMUCA _ahLzxBf7Ed23JcMyMFMUCA _ahVkwhf7Ed23JcMyMFMUCA _ahVkxRf7Ed23JcMyMFMUCA">
+    <generalization xmi:id="_aezOIBf7Ed23JcMyMFMUCA" general="_aIvekhf7Ed23JcMyMFMUCA"/>
+    <generalization xmi:id="_ae8_IRf7Ed23JcMyMFMUCA" general="_ae8_IBf7Ed23JcMyMFMUCA"/>
+    <generalization xmi:id="_ae8_Ihf7Ed23JcMyMFMUCA" general="_aIvelRf7Ed23JcMyMFMUCA"/>
+    <ownedAttribute xmi:id="_afi1ABf7Ed23JcMyMFMUCA" name="btnOk" visibility="private" type="_aPdKkRf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agJR9Bf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR8xf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_afi1ARf7Ed23JcMyMFMUCA" name="fontNames" visibility="package" type="_aPwFgBf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_afi1Axf7Ed23JcMyMFMUCA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR9Rf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_afi1BBf7Ed23JcMyMFMUCA" name="btnCancel" visibility="private" type="_aPdKkRf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agJR9xf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR9hf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_afi1BRf7Ed23JcMyMFMUCA" name="cANCELLED" visibility="public" isLeaf="true" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agJR-Rf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR-Bf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_afi1Bhf7Ed23JcMyMFMUCA" name="lblTest" visibility="private" type="_afi1Bxf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agJR-xf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR-hf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_afi1CBf7Ed23JcMyMFMUCA" name="pREVIEW_SIZE" visibility="public" isLeaf="true" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb4Bf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agJR_Bf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_afi1CRf7Ed23JcMyMFMUCA" name="selection" visibility="package">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb4hf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agSb4Rf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_afi1Chf7Ed23JcMyMFMUCA" name="fontIndex" visibility="package">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb5Bf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agSb4xf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_afsmABf7Ed23JcMyMFMUCA" name="faces" visibility="private" type="_afsmARf7Ed23JcMyMFMUCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb5hf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agSb5Rf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_afsmAhf7Ed23JcMyMFMUCA" name="oPTIMUM_SIZE" visibility="public" isLeaf="true" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb6Bf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agSb5xf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_afsmAxf7Ed23JcMyMFMUCA" name="sELECTED" visibility="public" isLeaf="true" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agSb6hf7Ed23JcMyMFMUCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agSb6Rf7Ed23JcMyMFMUCA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_afsmBBf7Ed23JcMyMFMUCA" name="actionPerformed" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_afsmBRf7Ed23JcMyMFMUCA" name="e" type="_aP5PcBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_afsmBhf7Ed23JcMyMFMUCA" name="itemStateChanged" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_af_g8Rf7Ed23JcMyMFMUCA" name="e" type="_af_g8Bf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_af_g8hf7Ed23JcMyMFMUCA" name="showFontDialog" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_af_g8xf7Ed23JcMyMFMUCA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_af_g9Bf7Ed23JcMyMFMUCA" name="fillFontObjects" visibility="private" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_af_g9Rf7Ed23JcMyMFMUCA" name="getChosenFont" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_af_g9hf7Ed23JcMyMFMUCA" type="_aT6z3hf7Ed23JcMyMFMUCA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_agJR8Bf7Ed23JcMyMFMUCA" name="JDlgFont" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_agJR8Rf7Ed23JcMyMFMUCA" name="owner" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+      <ownedParameter xmi:id="_agJR8hf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_aj3UUxf7Ed23JcMyMFMUCA" name="sun.awt">
+    <packagedElement xmi:type="uml:Class" xmi:id="_aj3UVBf7Ed23JcMyMFMUCA" name="AppContext" isLeaf="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aj3UVBf7Ed23JcMyMFMUCA" name="AppContext" isLeaf="true"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_akBFUxf7Ed23JcMyMFMUCA" name="javax.accessibility">
+    <packagedElement xmi:type="uml:Class" xmi:id="_akBFVBf7Ed23JcMyMFMUCA" name="AccessibleContext" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_amZq9Bf7Ed23JcMyMFMUCA" name="Accessible" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_akBFVBf7Ed23JcMyMFMUCA" name="AccessibleContext" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_amZq9Bf7Ed23JcMyMFMUCA" name="Accessible" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aoyQkBf7Ed23JcMyMFMUCA" name="JComponent" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_apYGdBf7Ed23JcMyMFMUCA" name="javax.swing.plaf">
+    <packagedElement xmi:type="uml:Class" xmi:id="_apYGdRf7Ed23JcMyMFMUCA" name="PanelUI" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_apYGdRf7Ed23JcMyMFMUCA" name="PanelUI" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ar6dEhf7Ed23JcMyMFMUCA" name="javax.swing.text">
+    <packagedElement xmi:type="uml:Class" xmi:id="_ar6dExf7Ed23JcMyMFMUCA" name="JTextComponent" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_atGv4Bf7Ed23JcMyMFMUCA" name="Document" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_auJRsBf7Ed23JcMyMFMUCA" name="BadLocationException"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ar6dExf7Ed23JcMyMFMUCA" name="JTextComponent" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_atGv4Bf7Ed23JcMyMFMUCA" name="Document" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_auJRsBf7Ed23JcMyMFMUCA" name="BadLocationException"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_aIvekBf7Ed23JcMyMFMUCA" name="java.awt">
+    <packagedElement xmi:type="uml:Class" xmi:id="_aIvekhf7Ed23JcMyMFMUCA" name="Dialog">
+      <generalization xmi:id="_aiFLoRf7Ed23JcMyMFMUCA" general="_aiFLoBf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_aj3UUBf7Ed23JcMyMFMUCA" name="base" visibility="private" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA" isReadOnly="true"/>
+      <ownedAttribute xmi:id="_aj3UURf7Ed23JcMyMFMUCA" name="showAppContext" visibility="private" type="_aj3UVBf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_aj3UVRf7Ed23JcMyMFMUCA" name="keepBlocking" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aj3UVxf7Ed23JcMyMFMUCA" name="resizable" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aj3UWBf7Ed23JcMyMFMUCA" name="undecorated" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_aj3UWRf7Ed23JcMyMFMUCA" name="title" visibility="package" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_aj3UWhf7Ed23JcMyMFMUCA" name="nameCounter" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_akBFUBf7Ed23JcMyMFMUCA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_akBFURf7Ed23JcMyMFMUCA" name="modal" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_algTEBf7Ed23JcMyMFMUCA" name="AccessibleAWTDialog" visibility="protected"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_algTERf7Ed23JcMyMFMUCA" name="WakingRunnable" visibility="package" isLeaf="true"/>
+      <ownedOperation xmi:id="_akBFUhf7Ed23JcMyMFMUCA" name="getAccessibleContext" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akBFVRf7Ed23JcMyMFMUCA" type="_akBFVBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akBFVhf7Ed23JcMyMFMUCA" name="doDispose" visibility="package" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_akBFVxf7Ed23JcMyMFMUCA" name="Dialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akBFWBf7Ed23JcMyMFMUCA" name="owner" type="_aIvekhf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_akBFWRf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akBFWhf7Ed23JcMyMFMUCA" name="setUndecorated" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akBFWxf7Ed23JcMyMFMUCA" name="undecorated">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akBFXBf7Ed23JcMyMFMUCA" name="Dialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akBFXRf7Ed23JcMyMFMUCA" name="owner" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_akKPQBf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akKPQRf7Ed23JcMyMFMUCA" name="&lt;clinit>" visibility="package" isStatic="true" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_akKPQhf7Ed23JcMyMFMUCA" name="interruptBlocking" visibility="package" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_akKPQxf7Ed23JcMyMFMUCA" name="Dialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akKPRBf7Ed23JcMyMFMUCA" name="owner" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_akKPRRf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_akdxQBf7Ed23JcMyMFMUCA" name="modal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_akdxQhf7Ed23JcMyMFMUCA" name="gc" type="_akdxQRf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akdxQxf7Ed23JcMyMFMUCA" name="constructComponentName" visibility="package" concurrency="concurrent">
+        <ownedParameter xmi:id="_akdxRBf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akdxRRf7Ed23JcMyMFMUCA" name="isUndecorated" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akdxRhf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akdxRxf7Ed23JcMyMFMUCA" name="show" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_akdxSBf7Ed23JcMyMFMUCA" name="setModal" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akdxSRf7Ed23JcMyMFMUCA" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akm7MBf7Ed23JcMyMFMUCA" name="addNotify" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_akm7MRf7Ed23JcMyMFMUCA" name="Dialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akm7Mhf7Ed23JcMyMFMUCA" name="owner" type="_aIvekhf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akm7Mxf7Ed23JcMyMFMUCA" name="Dialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akm7NBf7Ed23JcMyMFMUCA" name="owner" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_akm7NRf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_akm7Nhf7Ed23JcMyMFMUCA" name="modal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akm7Nxf7Ed23JcMyMFMUCA" name="setResizable" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akm7OBf7Ed23JcMyMFMUCA" name="resizable">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akm7ORf7Ed23JcMyMFMUCA" name="getTitle" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akm7Ohf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akm7Oxf7Ed23JcMyMFMUCA" name="hideAndDisposeHandler" visibility="private" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_akm7PBf7Ed23JcMyMFMUCA" name="setTitle" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_akm7PRf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akm7Phf7Ed23JcMyMFMUCA" name="hide" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_akm7Pxf7Ed23JcMyMFMUCA" name="initIDs" visibility="private" isStatic="true" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_akwsMRf7Ed23JcMyMFMUCA" name="paramString" visibility="protected" concurrency="concurrent">
+        <ownedParameter xmi:id="_akwsMhf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_akwsMxf7Ed23JcMyMFMUCA" name="conditionalShow" visibility="private" concurrency="concurrent">
+        <ownedParameter xmi:id="_akwsNRf7Ed23JcMyMFMUCA" name="toFocus" type="_akwsNBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_alDnIhf7Ed23JcMyMFMUCA" name="time" type="_alDnIRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_alDnIxf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_alDnJBf7Ed23JcMyMFMUCA" name="Dialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_alDnJRf7Ed23JcMyMFMUCA" name="owner" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_alDnJhf7Ed23JcMyMFMUCA" name="isModal" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_alDnJxf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_alDnKBf7Ed23JcMyMFMUCA" name="Dialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_alDnKRf7Ed23JcMyMFMUCA" name="owner" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_alDnKhf7Ed23JcMyMFMUCA" name="modal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_alDnKxf7Ed23JcMyMFMUCA" name="Dialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_alNYIBf7Ed23JcMyMFMUCA" name="owner" type="_aIvekhf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_alNYIRf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_alNYIhf7Ed23JcMyMFMUCA" name="modal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_alNYIxf7Ed23JcMyMFMUCA" name="gc" type="_akdxQRf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_alNYJBf7Ed23JcMyMFMUCA" name="isResizable" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_alNYJRf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_alNYJhf7Ed23JcMyMFMUCA" name="Dialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_alNYJxf7Ed23JcMyMFMUCA" name="owner" type="_aIvekhf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_alNYKBf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_alNYKRf7Ed23JcMyMFMUCA" name="modal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aPdKkRf7Ed23JcMyMFMUCA" name="Button"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aPdKkxf7Ed23JcMyMFMUCA" name="TextArea"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aPmUgRf7Ed23JcMyMFMUCA" name="Frame"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aS4SAhf7Ed23JcMyMFMUCA" name="MenuBar">
+      <generalization xmi:id="_amZq8Rf7Ed23JcMyMFMUCA" general="_amZq8Bf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_amZq8xf7Ed23JcMyMFMUCA" general="_amZq8hf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_amZq9Rf7Ed23JcMyMFMUCA" general="_amZq9Bf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_am_g0Bf7Ed23JcMyMFMUCA" name="base" visibility="private" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA" isReadOnly="true"/>
+      <ownedAttribute xmi:id="_am_g0Rf7Ed23JcMyMFMUCA" name="menus" visibility="package" type="_am_g0hf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_am_g0xf7Ed23JcMyMFMUCA" name="menuBarSerializedDataVersion" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_am_g1Bf7Ed23JcMyMFMUCA" name="nameCounter" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_anJR0Bf7Ed23JcMyMFMUCA" name="helpMenu" visibility="package" type="_aTeH4Rf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_anJR0Rf7Ed23JcMyMFMUCA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_aoLzoBf7Ed23JcMyMFMUCA" name="AccessibleAWTMenuBar" visibility="protected"/>
+      <ownedOperation xmi:id="_anJR0hf7Ed23JcMyMFMUCA" name="initIDs" visibility="private" isStatic="true" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_anJR1Bf7Ed23JcMyMFMUCA" name="getShortcutMenuItem" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_anJR1hf7Ed23JcMyMFMUCA" name="s" type="_anJR1Rf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_anJR1xf7Ed23JcMyMFMUCA" type="_aTeH4xf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anJR2Bf7Ed23JcMyMFMUCA" name="getHelpMenu" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_anJR2Rf7Ed23JcMyMFMUCA" type="_aTeH4Rf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anJR2hf7Ed23JcMyMFMUCA" name="setHelpMenu" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_anJR2xf7Ed23JcMyMFMUCA" name="m" type="_aTeH4Rf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anJR3Bf7Ed23JcMyMFMUCA" name="removeNotify" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_anJR3Rf7Ed23JcMyMFMUCA" name="getMenuImpl" visibility="package" isLeaf="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_anTC0Bf7Ed23JcMyMFMUCA" name="i">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_anTC0Rf7Ed23JcMyMFMUCA" type="_aTeH4Rf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anTC0hf7Ed23JcMyMFMUCA" name="add" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_anTC0xf7Ed23JcMyMFMUCA" name="m" type="_aTeH4Rf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_anTC1Bf7Ed23JcMyMFMUCA" type="_aTeH4Rf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anTC1Rf7Ed23JcMyMFMUCA" name="getMenuCountImpl" visibility="package" isLeaf="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_anTC1hf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anTC1xf7Ed23JcMyMFMUCA" name="getMenu" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_anTC2Bf7Ed23JcMyMFMUCA" name="i">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_anTC2Rf7Ed23JcMyMFMUCA" type="_aTeH4Rf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anTC2hf7Ed23JcMyMFMUCA" name="remove" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_anTC2xf7Ed23JcMyMFMUCA" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anTC3Bf7Ed23JcMyMFMUCA" name="handleShortcut" visibility="package" concurrency="concurrent">
+        <ownedParameter xmi:id="_anTC3hf7Ed23JcMyMFMUCA" name="e" type="_anTC3Rf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_ancMwBf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ancMwRf7Ed23JcMyMFMUCA" name="countMenus" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ancMwhf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ancMwxf7Ed23JcMyMFMUCA" name="&lt;clinit>" visibility="package" isStatic="true" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_ancMxBf7Ed23JcMyMFMUCA" name="constructComponentName" visibility="package" concurrency="concurrent">
+        <ownedParameter xmi:id="_ancMxRf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ancMxhf7Ed23JcMyMFMUCA" name="getAccessibleContext" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ancMxxf7Ed23JcMyMFMUCA" type="_akBFVBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ancMyBf7Ed23JcMyMFMUCA" name="writeObject" visibility="private" concurrency="concurrent" raisedException="_anl9wRf7Ed23JcMyMFMUCA _anl9whf7Ed23JcMyMFMUCA">
+        <ownedParameter xmi:id="_anl9wBf7Ed23JcMyMFMUCA" name="s" type="_ancMyRf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anl9wxf7Ed23JcMyMFMUCA" name="addNotify" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_anl9xBf7Ed23JcMyMFMUCA" name="MenuBar" visibility="public" concurrency="concurrent" raisedException="_anl9xRf7Ed23JcMyMFMUCA"/>
+      <ownedOperation xmi:id="_anl9xhf7Ed23JcMyMFMUCA" name="getAccessibleChildIndex" visibility="package" concurrency="concurrent">
+        <ownedParameter xmi:id="_anl9xxf7Ed23JcMyMFMUCA" name="child" type="_amZq8Bf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_anl9yBf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anl9yRf7Ed23JcMyMFMUCA" name="readObject" visibility="private" concurrency="concurrent" raisedException="_anl9wRf7Ed23JcMyMFMUCA _anl9whf7Ed23JcMyMFMUCA _anl9xRf7Ed23JcMyMFMUCA">
+        <ownedParameter xmi:id="_anl9yxf7Ed23JcMyMFMUCA" name="s" type="_anl9yhf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anl9zBf7Ed23JcMyMFMUCA" name="deleteShortcut" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_anvHsBf7Ed23JcMyMFMUCA" name="s" type="_anJR1Rf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anvHsRf7Ed23JcMyMFMUCA" name="getMenuCount" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_anvHshf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anvHsxf7Ed23JcMyMFMUCA" name="shortcuts" visibility="public">
+        <ownedParameter xmi:id="_anvHtRf7Ed23JcMyMFMUCA" type="_anvHtBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_anvHthf7Ed23JcMyMFMUCA" name="remove" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_anvHtxf7Ed23JcMyMFMUCA" name="m" type="_amZq8Bf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aTeH4Rf7Ed23JcMyMFMUCA" name="Menu"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aTeH4xf7Ed23JcMyMFMUCA" name="MenuItem"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aTn46Rf7Ed23JcMyMFMUCA" name="CheckboxMenuItem"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aT6z3hf7Ed23JcMyMFMUCA" name="Font"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aXWiVxf7Ed23JcMyMFMUCA" name="GridBagConstraints"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aXWiWBf7Ed23JcMyMFMUCA" name="GridBagLayout"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aYi1IBf7Ed23JcMyMFMUCA" name="FileDialog">
+      <generalization xmi:id="_aqkZQBf7Ed23JcMyMFMUCA" general="_aIvekhf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_arK2MBf7Ed23JcMyMFMUCA" name="base" visibility="private" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA" isReadOnly="true"/>
+      <ownedAttribute xmi:id="_arUAIBf7Ed23JcMyMFMUCA" name="filter" visibility="package" type="_aprocBf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_arUAIRf7Ed23JcMyMFMUCA" name="lOAD" visibility="public" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_arUAIhf7Ed23JcMyMFMUCA" name="sAVE" visibility="public" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_arUAIxf7Ed23JcMyMFMUCA" name="file" visibility="package" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_arUAJBf7Ed23JcMyMFMUCA" name="nameCounter" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_arUAJRf7Ed23JcMyMFMUCA" name="mode" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_arUAJhf7Ed23JcMyMFMUCA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_arUAJxf7Ed23JcMyMFMUCA" name="dir" visibility="package" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      <ownedOperation xmi:id="_arUAKBf7Ed23JcMyMFMUCA" name="FileDialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_arUAKRf7Ed23JcMyMFMUCA" name="parent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_arUAKhf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_arUAKxf7Ed23JcMyMFMUCA" name="mode">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ardxIBf7Ed23JcMyMFMUCA" name="FileDialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ardxIRf7Ed23JcMyMFMUCA" name="parent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ardxIhf7Ed23JcMyMFMUCA" name="getFile" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ardxIxf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ardxJBf7Ed23JcMyMFMUCA" name="getMode" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ardxJRf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ardxJhf7Ed23JcMyMFMUCA" name="addNotify" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_ardxJxf7Ed23JcMyMFMUCA" name="constructComponentName" visibility="package" concurrency="concurrent">
+        <ownedParameter xmi:id="_ardxKBf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ardxKRf7Ed23JcMyMFMUCA" name="readObject" visibility="private" concurrency="concurrent" raisedException="_anl9wRf7Ed23JcMyMFMUCA _anl9whf7Ed23JcMyMFMUCA">
+        <ownedParameter xmi:id="_ardxKhf7Ed23JcMyMFMUCA" name="s" type="_anl9yhf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ardxKxf7Ed23JcMyMFMUCA" name="FileDialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ardxLBf7Ed23JcMyMFMUCA" name="parent" type="_aPmUgRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_ardxLRf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ardxLhf7Ed23JcMyMFMUCA" name="initIDs" visibility="private" isStatic="true" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_ardxMBf7Ed23JcMyMFMUCA" name="getFilenameFilter" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_arniIBf7Ed23JcMyMFMUCA" type="_aprocBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_arniIRf7Ed23JcMyMFMUCA" name="setDirectory" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_arniIhf7Ed23JcMyMFMUCA" name="dir" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_arniIxf7Ed23JcMyMFMUCA" name="FileDialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_arniJBf7Ed23JcMyMFMUCA" name="parent" type="_aIvekhf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_arniJRf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_arniJhf7Ed23JcMyMFMUCA" name="mode">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_arniJxf7Ed23JcMyMFMUCA" name="setFilenameFilter" visibility="public">
+        <ownedParameter xmi:id="_arniKBf7Ed23JcMyMFMUCA" name="filter" type="_aprocBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_arniKRf7Ed23JcMyMFMUCA" name="&lt;clinit>" visibility="package" isStatic="true" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_arwsEBf7Ed23JcMyMFMUCA" name="FileDialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_arwsERf7Ed23JcMyMFMUCA" name="parent" type="_aIvekhf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_arwsEhf7Ed23JcMyMFMUCA" name="title" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_arwsExf7Ed23JcMyMFMUCA" name="paramString" visibility="protected" concurrency="concurrent">
+        <ownedParameter xmi:id="_arwsFBf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_arwsFRf7Ed23JcMyMFMUCA" name="postsOldMouseEvents" visibility="package" concurrency="concurrent">
+        <ownedParameter xmi:id="_arwsFhf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_arwsFxf7Ed23JcMyMFMUCA" name="setMode" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_arwsGBf7Ed23JcMyMFMUCA" name="mode">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_arwsGRf7Ed23JcMyMFMUCA" name="setFile" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_arwsGhf7Ed23JcMyMFMUCA" name="file" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_arwsGxf7Ed23JcMyMFMUCA" name="FileDialog" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_arwsHBf7Ed23JcMyMFMUCA" name="parent" type="_aIvekhf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ar6dEBf7Ed23JcMyMFMUCA" name="getDirectory" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ar6dERf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_acaoghf7Ed23JcMyMFMUCA" name="Panel">
+      <generalization xmi:id="_aw-jQRf7Ed23JcMyMFMUCA" general="_aw-jQBf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_aw-jQhf7Ed23JcMyMFMUCA" general="_amZq9Bf7Ed23JcMyMFMUCA"/>
+      <ownedAttribute xmi:id="_axbPMBf7Ed23JcMyMFMUCA" name="base" visibility="private" isLeaf="true" isStatic="true" type="_aPwFgBf7Ed23JcMyMFMUCA" isReadOnly="true"/>
+      <ownedAttribute xmi:id="_axbPMRf7Ed23JcMyMFMUCA" name="nameCounter" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_axbPMhf7Ed23JcMyMFMUCA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_axuKIBf7Ed23JcMyMFMUCA" name="AccessibleAWTPanel" visibility="protected"/>
+      <ownedOperation xmi:id="_axbPMxf7Ed23JcMyMFMUCA" name="&lt;clinit>" visibility="package" isStatic="true" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_axbPNBf7Ed23JcMyMFMUCA" name="Panel" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_axbPNRf7Ed23JcMyMFMUCA" name="constructComponentName" visibility="package" concurrency="concurrent">
+        <ownedParameter xmi:id="_axlAMBf7Ed23JcMyMFMUCA" type="_aPwFgBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_axlAMRf7Ed23JcMyMFMUCA" name="addNotify" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_axlAMhf7Ed23JcMyMFMUCA" name="Panel" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_axlAMxf7Ed23JcMyMFMUCA" name="layout" type="_apO8iBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_axlANBf7Ed23JcMyMFMUCA" name="getAccessibleContext" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_axlANRf7Ed23JcMyMFMUCA" type="_akBFVBf7Ed23JcMyMFMUCA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_afi1Bxf7Ed23JcMyMFMUCA" name="Label"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_afsmARf7Ed23JcMyMFMUCA" name="Choice"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_agSb6xf7Ed23JcMyMFMUCA" name="GraphicsEnvironment" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aiFLoBf7Ed23JcMyMFMUCA" name="Window"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_akdxQRf7Ed23JcMyMFMUCA" name="GraphicsConfiguration" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_akwsNBf7Ed23JcMyMFMUCA" name="Component" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_amZq8Bf7Ed23JcMyMFMUCA" name="MenuComponent" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_amZq8hf7Ed23JcMyMFMUCA" name="MenuContainer" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_anJR1Rf7Ed23JcMyMFMUCA" name="MenuShortcut"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_anl9xRf7Ed23JcMyMFMUCA" name="HeadlessException"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_apO8iBf7Ed23JcMyMFMUCA" name="LayoutManager" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_as8-5Rf7Ed23JcMyMFMUCA" name="Dimension"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_atjb0Bf7Ed23JcMyMFMUCA" name="Rectangle"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aw-jQBf7Ed23JcMyMFMUCA" name="Container"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_aIvelBf7Ed23JcMyMFMUCA" name="java.awt.event">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_aIvelRf7Ed23JcMyMFMUCA" name="ActionListener" isAbstract="true">
+      <generalization xmi:id="_alqEERf7Ed23JcMyMFMUCA" general="_alqEEBf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_alqEFBf7Ed23JcMyMFMUCA" general="_alqEExf7Ed23JcMyMFMUCA"/>
+      <ownedOperation xmi:id="_al8_ABf7Ed23JcMyMFMUCA" name="actionPerformed" visibility="public" isAbstract="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_al8_ARf7Ed23JcMyMFMUCA" name="e" type="_aP5PcBf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aP5PcBf7Ed23JcMyMFMUCA" name="ActionEvent"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ae8_IBf7Ed23JcMyMFMUCA" name="ItemListener" isAbstract="true">
+      <generalization xmi:id="_ayK2EBf7Ed23JcMyMFMUCA" general="_alqEEBf7Ed23JcMyMFMUCA"/>
+      <generalization xmi:id="_ayK2ERf7Ed23JcMyMFMUCA" general="_alqEExf7Ed23JcMyMFMUCA"/>
+      <ownedOperation xmi:id="_ayUnEBf7Ed23JcMyMFMUCA" name="itemStateChanged" visibility="public" isAbstract="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_ayUnERf7Ed23JcMyMFMUCA" name="e" type="_af_g8Bf7Ed23JcMyMFMUCA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_af_g8Bf7Ed23JcMyMFMUCA" name="ItemEvent"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_anTC3Rf7Ed23JcMyMFMUCA" name="KeyEvent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_aPmUgxf7Ed23JcMyMFMUCA" name="java.lang">
+    <packagedElement xmi:type="uml:Class" xmi:id="_aPwFgBf7Ed23JcMyMFMUCA" name="String" isLeaf="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aPwFghf7Ed23JcMyMFMUCA" name="Exception"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_adKPYhf7Ed23JcMyMFMUCA" name="System" isLeaf="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_alqEEBf7Ed23JcMyMFMUCA" name="Object"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_anl9wRf7Ed23JcMyMFMUCA" name="ClassNotFoundException"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_aQMxcBf7Ed23JcMyMFMUCA" name="java.io">
+    <packagedElement xmi:type="uml:Class" xmi:id="_aQMxcRf7Ed23JcMyMFMUCA" name="ByteArrayOutputStream"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ac3UdRf7Ed23JcMyMFMUCA" name="File"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_adKPYBf7Ed23JcMyMFMUCA" name="FileInputStream"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_adKPYRf7Ed23JcMyMFMUCA" name="PrintStream"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_adKPYxf7Ed23JcMyMFMUCA" name="FileOutputStream"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ancMyRf7Ed23JcMyMFMUCA" name="ObjectOutputStream"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_anl9whf7Ed23JcMyMFMUCA" name="IOException"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_anl9yhf7Ed23JcMyMFMUCA" name="ObjectInputStream"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_aprocBf7Ed23JcMyMFMUCA" name="FilenameFilter" isAbstract="true">
+      <generalization xmi:id="_a_uw8Bf7Ed23JcMyMFMUCA" general="_alqEEBf7Ed23JcMyMFMUCA"/>
+      <ownedOperation xmi:id="_bABr4Bf7Ed23JcMyMFMUCA" name="accept" visibility="public" isAbstract="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_bABr4Rf7Ed23JcMyMFMUCA" name="dir" type="_ac3UdRf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_bABr4hf7Ed23JcMyMFMUCA" name="name" type="_aPwFgBf7Ed23JcMyMFMUCA"/>
+        <ownedParameter xmi:id="_bABr4xf7Ed23JcMyMFMUCA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_alDnIBf7Ed23JcMyMFMUCA" name="java.util.concurrent.atomic">
+    <packagedElement xmi:type="uml:Class" xmi:id="_alDnIRf7Ed23JcMyMFMUCA" name="AtomicLong"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_alqEEhf7Ed23JcMyMFMUCA" name="java.util">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_alqEExf7Ed23JcMyMFMUCA" name="EventListener" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_am_g0hf7Ed23JcMyMFMUCA" name="Vector"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_anvHtBf7Ed23JcMyMFMUCA" name="Enumeration" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aQV7YRf7Ed23JcMyMFMUCA" supplier="_aPwFgBf7Ed23JcMyMFMUCA" client="_Y4k3MBf7Ed23JcMyMFMUCA _Y4k3MBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aQfsYRf7Ed23JcMyMFMUCA" supplier="_aQMxcRf7Ed23JcMyMFMUCA" client="_Y4k3MBf7Ed23JcMyMFMUCA _Y4k3MBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aQfsYxf7Ed23JcMyMFMUCA" supplier="_aQMxcRf7Ed23JcMyMFMUCA" client="_Y4k3MBf7Ed23JcMyMFMUCA _Y4k3MBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aQpdYhf7Ed23JcMyMFMUCA" supplier="_aQV7YBf7Ed23JcMyMFMUCA" client="_Y4k3MBf7Ed23JcMyMFMUCA _Y4k3MBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aQpdZBf7Ed23JcMyMFMUCA" supplier="_aPdKkRf7Ed23JcMyMFMUCA" client="_Y4k3MBf7Ed23JcMyMFMUCA _Y4k3MBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aQynUhf7Ed23JcMyMFMUCA" supplier="_aPdKkxf7Ed23JcMyMFMUCA" client="_Y4k3MBf7Ed23JcMyMFMUCA _Y4k3MBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aQynVRf7Ed23JcMyMFMUCA" supplier="_aPwFghf7Ed23JcMyMFMUCA" client="_Y4k3MBf7Ed23JcMyMFMUCA _Y4k3MBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aQ8YUBf7Ed23JcMyMFMUCA" supplier="_aPmUgRf7Ed23JcMyMFMUCA" client="_Y4k3MBf7Ed23JcMyMFMUCA _Y4k3MBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aQ8YUxf7Ed23JcMyMFMUCA" supplier="_aP5PcBf7Ed23JcMyMFMUCA" client="_Y4k3MBf7Ed23JcMyMFMUCA _Y4k3MBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aSlXEhf7Ed23JcMyMFMUCA" supplier="_aSlXERf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aSuhAhf7Ed23JcMyMFMUCA" supplier="_aSlXEBf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aSuhBRf7Ed23JcMyMFMUCA" supplier="_aQMxchf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aUEk0Bf7Ed23JcMyMFMUCA" supplier="_aPwFgBf7Ed23JcMyMFMUCA" client="_aS4SARf7Ed23JcMyMFMUCA _aS4SARf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aUEk0xf7Ed23JcMyMFMUCA" supplier="_aT6z3hf7Ed23JcMyMFMUCA" client="_aS4SARf7Ed23JcMyMFMUCA _aS4SARf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aUEk1hf7Ed23JcMyMFMUCA" supplier="_aTeH4xf7Ed23JcMyMFMUCA" client="_aS4SARf7Ed23JcMyMFMUCA _aS4SARf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aUOV0hf7Ed23JcMyMFMUCA" supplier="_aTn46Rf7Ed23JcMyMFMUCA" client="_aS4SARf7Ed23JcMyMFMUCA _aS4SARf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aUOV1Rf7Ed23JcMyMFMUCA" supplier="_aPmUgRf7Ed23JcMyMFMUCA" client="_aS4SARf7Ed23JcMyMFMUCA _aS4SARf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aUXfwhf7Ed23JcMyMFMUCA" supplier="_aTeH4Rf7Ed23JcMyMFMUCA" client="_aS4SARf7Ed23JcMyMFMUCA _aS4SARf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aUhQwBf7Ed23JcMyMFMUCA" supplier="_aQMxchf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aXWiWRf7Ed23JcMyMFMUCA" supplier="_aXDAURf7Ed23JcMyMFMUCA" client="_aUqasRf7Ed23JcMyMFMUCA _aUqasRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aXfsQhf7Ed23JcMyMFMUCA" supplier="_aPwFgBf7Ed23JcMyMFMUCA" client="_aUqasRf7Ed23JcMyMFMUCA _aUqasRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aXfsRRf7Ed23JcMyMFMUCA" supplier="_aXDAUxf7Ed23JcMyMFMUCA" client="_aUqasRf7Ed23JcMyMFMUCA _aUqasRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aXpdQhf7Ed23JcMyMFMUCA" supplier="_aXWiWBf7Ed23JcMyMFMUCA" client="_aUqasRf7Ed23JcMyMFMUCA _aUqasRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aXpdRBf7Ed23JcMyMFMUCA" supplier="_aXWiWBf7Ed23JcMyMFMUCA" client="_aUqasRf7Ed23JcMyMFMUCA _aUqasRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aXpdRxf7Ed23JcMyMFMUCA" supplier="_aXWiVxf7Ed23JcMyMFMUCA" client="_aUqasRf7Ed23JcMyMFMUCA _aUqasRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aXzOQhf7Ed23JcMyMFMUCA" supplier="_aXWiVxf7Ed23JcMyMFMUCA" client="_aUqasRf7Ed23JcMyMFMUCA _aUqasRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aXzORBf7Ed23JcMyMFMUCA" supplier="_aXWiVxf7Ed23JcMyMFMUCA" client="_aUqasRf7Ed23JcMyMFMUCA _aUqasRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aX8YMhf7Ed23JcMyMFMUCA" supplier="_aXMxVRf7Ed23JcMyMFMUCA" client="_aUqasRf7Ed23JcMyMFMUCA _aUqasRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aX8YNRf7Ed23JcMyMFMUCA" supplier="_aXMxURf7Ed23JcMyMFMUCA" client="_aUqasRf7Ed23JcMyMFMUCA _aUqasRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aYPTIBf7Ed23JcMyMFMUCA" supplier="_aQMxchf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aZIrABf7Ed23JcMyMFMUCA" supplier="_aPwFgBf7Ed23JcMyMFMUCA" client="_aYPTIhf7Ed23JcMyMFMUCA _aYPTIhf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aZIrAxf7Ed23JcMyMFMUCA" supplier="_aPmUgRf7Ed23JcMyMFMUCA" client="_aYPTIhf7Ed23JcMyMFMUCA _aYPTIhf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aZbl8Bf7Ed23JcMyMFMUCA" supplier="_aQMxchf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_abEkthf7Ed23JcMyMFMUCA" supplier="_abEksBf7Ed23JcMyMFMUCA" client="_aZbl8hf7Ed23JcMyMFMUCA _aZbl8hf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_abYGsBf7Ed23JcMyMFMUCA" supplier="_aQMxchf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ab0Lkhf7Ed23JcMyMFMUCA" supplier="_aPwFgBf7Ed23JcMyMFMUCA" client="_abYGshf7Ed23JcMyMFMUCA _abYGshf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ab0LlRf7Ed23JcMyMFMUCA" supplier="_aQV7YBf7Ed23JcMyMFMUCA" client="_abYGshf7Ed23JcMyMFMUCA _abYGshf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ab98kRf7Ed23JcMyMFMUCA" supplier="_aPdKkxf7Ed23JcMyMFMUCA" client="_abYGshf7Ed23JcMyMFMUCA _abYGshf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_acHtkhf7Ed23JcMyMFMUCA" supplier="_aPmUgRf7Ed23JcMyMFMUCA" client="_abYGshf7Ed23JcMyMFMUCA _abYGshf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_acQ3gBf7Ed23JcMyMFMUCA" supplier="_aQMxchf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_adKPZBf7Ed23JcMyMFMUCA" supplier="_ac3UdRf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_adUAYhf7Ed23JcMyMFMUCA" supplier="_adKPYxf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_adUAZRf7Ed23JcMyMFMUCA" supplier="_adKPYhf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_addKUhf7Ed23JcMyMFMUCA" supplier="_adKPYRf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_addKVRf7Ed23JcMyMFMUCA" supplier="_adKPYBf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_addKWBf7Ed23JcMyMFMUCA" supplier="_aT6z3hf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_adm7Uhf7Ed23JcMyMFMUCA" supplier="_aPwFgBf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_adm7VRf7Ed23JcMyMFMUCA" supplier="_aPmUgRf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_adwsUhf7Ed23JcMyMFMUCA" supplier="_aPwFghf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_adwsVRf7Ed23JcMyMFMUCA" supplier="_aPdKkxf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ad52QRf7Ed23JcMyMFMUCA" supplier="_aPdKkxf7Ed23JcMyMFMUCA" client="_acaogRf7Ed23JcMyMFMUCA _acaogRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aeDnQBf7Ed23JcMyMFMUCA" supplier="_aQMxchf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_agSb7Bf7Ed23JcMyMFMUCA" supplier="_agSb6xf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_agcM4hf7Ed23JcMyMFMUCA" supplier="_agSb6xf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_agcM5Rf7Ed23JcMyMFMUCA" supplier="_adKPYhf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aglW0hf7Ed23JcMyMFMUCA" supplier="_afi1Bxf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aglW1Rf7Ed23JcMyMFMUCA" supplier="_aXWiVxf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_agvH0hf7Ed23JcMyMFMUCA" supplier="_aXWiVxf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_agvH1Bf7Ed23JcMyMFMUCA" supplier="_aXWiVxf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ag440hf7Ed23JcMyMFMUCA" supplier="_aP5PcBf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ag441Rf7Ed23JcMyMFMUCA" supplier="_afsmARf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ahCCwRf7Ed23JcMyMFMUCA" supplier="_afsmARf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ahCCxBf7Ed23JcMyMFMUCA" supplier="_af_g8Bf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ahCCxxf7Ed23JcMyMFMUCA" supplier="_aXWiWBf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ahLzwRf7Ed23JcMyMFMUCA" supplier="_aPdKkRf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ahLzxBf7Ed23JcMyMFMUCA" supplier="_aT6z3hf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ahVkwhf7Ed23JcMyMFMUCA" supplier="_aPwFgBf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ahVkxRf7Ed23JcMyMFMUCA" supplier="_aPmUgRf7Ed23JcMyMFMUCA" client="_aeMxMRf7Ed23JcMyMFMUCA _aeMxMRf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ahofsBf7Ed23JcMyMFMUCA" supplier="_aQMxchf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aqHtUBf7Ed23JcMyMFMUCA" supplier="_aPwFgBf7Ed23JcMyMFMUCA" client="_aY_hFxf7Ed23JcMyMFMUCA _aY_hFxf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aqHtUxf7Ed23JcMyMFMUCA" supplier="_ac3UdRf7Ed23JcMyMFMUCA" client="_aY_hFxf7Ed23JcMyMFMUCA _aY_hFxf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aqbPUBf7Ed23JcMyMFMUCA" supplier="_aQMxchf7Ed23JcMyMFMUCA" client="_Y4btQBf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_awFLYBf7Ed23JcMyMFMUCA" supplier="_aPwFgBf7Ed23JcMyMFMUCA" client="_abhQohf7Ed23JcMyMFMUCA _abhQohf7Ed23JcMyMFMUCA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_awFLYxf7Ed23JcMyMFMUCA" supplier="_adKPYhf7Ed23JcMyMFMUCA" client="_abhQohf7Ed23JcMyMFMUCA _abhQohf7Ed23JcMyMFMUCA"/>
+</uml:Model>

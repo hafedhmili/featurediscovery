@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="reflect-id" foregroundRGB="255,255,255" description="" id="jreversepro.reflect" metadata="uml2-1.0" initialized="true" scrolledX="3235" scrolledY="1446" tag="1000" key="3230303631303036204A726576657273652F616D616C5F65">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.3" name="JLineNumberTable" location="3760,1560" size="163,59" id="jreversepro.reflect/JLineNumberTable" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.2" name="JConstantPoolEntry" location="3260,1660" size="165,59" id="jreversepro.reflect/JConstantPoolEntry" runTimeClassModel="getPtr2(),value,getValue(),toString(),ptr2,getTagByte(),getPtr1(),tagByte,JConstantPoolEntry(ILjava.lang.String;II),ptr1">
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,72"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="371,108"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="jreversepro.reflect/JConstantPoolEntry->jreversepro.reflect/JConstantPool" source="//@children.1" target="//@children.6" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,31" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,35"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.2" name="JLineOfCode" location="3625,1450" size="124,59" id="jreversepro.reflect/JLineOfCode" runTimeClassModel="setEnd(I),decoration,getToIndex(),start,end,JLineOfCode(Ljava.lang.String;Ljreversepro.reflect.method.JBlockObject;I),p,isDecoration(),setFromIndex(I),setToIndex(I),getViz(),getStmt(),toIndex,setState(I),iNBLOCK,JLineOfCode(IIIILjava.lang.String;),setStart(I),getStart(),eXIT,getEnd(),setBlock(Ljreversepro.reflect.method.JBlockObject;),fromIndex,toString(Ljava.lang.String;Z),toString(),setViz(Ljava.lang.String;),isExitCode(),stmt,isEntryCode(),getBlock(),setStmt(Ljava.lang.String;),getState(),block,isInBlockCode(),eNTRY,state,toString(Ljava.lang.String;),getFromIndex(),viz">
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,234"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="364,450"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.5" name="JClassInfo" location="3520,1798" size="106,59" id="jreversepro.reflect/JClassInfo" runTimeClassModel="srcFile,getSourceFile(),getStringifiedInterfaces(),getMajor(),superClass,getHeaders(),getPackageImports(),getInterfaces(),addField(Ljreversepro.reflect.JField;),getThisClass(),getSuperClass(),addMethod(Ljreversepro.reflect.JMethod;),majorNumber,getStringifiedClass(Z),decompiled,absPath,addInterface(Ljava.lang.String;),getMinor(),setSuperClass(Ljava.lang.String;),setPackageName(Ljava.lang.String;),setConstantPool(Ljreversepro.reflect.JConstantPool;),getMethods(),setSourceFile(Ljava.lang.String;),memMethods,JClassInfo(),getStringifiedClass(ZZ),isClass(),getFields(),aCC_INTERFACE,setMajorMinor(SS),setPathName(Ljava.lang.String;),interfaces,thisClass,getConstantPool(),setThisClass(Ljava.lang.String;),reverseEngineer(Z),accessFlag,getStringifiedMethods(ZZ),processMethods(Z),getThisClass(Z),getStringifiedFields(),getAccessString(),getPathName(),packageName,cpInfo,setAccess(I),getThisSuperClasses(),minorNumber,memFields,aCC_SUPER">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,270"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="423,630"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JClassInfo->jreversepro.reflect/JConstantPool" source="//@children.3" target="//@children.6" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,59"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JClassInfo->jreversepro.reflect/JImport" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="27,59"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JClassInfo->jreversepro.reflect/JMethod" source="//@children.3" target="//@children.10" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,49"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JClassInfo->jreversepro.reflect/JField" source="//@children.3" target="//@children.8" targetEnd="//@children.3/@sourceConnections.3/@children.2" label="//@children.3/@sourceConnections.3/@children.0" sourceEnd="//@children.3/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,48"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JClassInfo->jreversepro.reflect/JMember" source="//@children.3" target="//@children.9" targetEnd="//@children.3/@sourceConnections.4/@children.2" label="//@children.3/@sourceConnections.4/@children.0" sourceEnd="//@children.3/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,49"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.4 //@children.10/@sourceConnections.9 //@children.10/@sourceConnections.12" name="JException" location="3870,1830" size="112,59" id="jreversepro.reflect/JException" runTimeClassModel="getExceptionClass(I),toString(),equals(Ljava.lang.Object;),sameTryBlock(Ljreversepro.reflect.JException;),containsANYCatchBlock(),JException(IIILjava.lang.String;),getEndPc(),getEffectiveEndPc(Ljava.util.List;),excCatchTable,startPc,endPc,getStartPc(),getHandlers(),any,isAny(),addCatchBlock(ILjava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,72"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="395,216"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.6/@sourceConnections.1 //@children.3/@sourceConnections.1 //@children.10/@sourceConnections.1 //@children.10/@sourceConnections.7 //@children.6/@sourceConnections.3 //@children.10/@sourceConnections.10" name="JImport" location="3570,1540" size="90,59" id="jreversepro.reflect/JImport" runTimeClassModel="addClass(Ljava.lang.String;),classes,getImportClasses(Ljava.lang.String;),getClassName(Ljava.lang.String;),JImport()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,18"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="261,72"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.3/@sourceConnections.0" name="JConstantPool" location="3480,1650" size="133,59" id="jreversepro.reflect/JConstantPool" runTimeClassModel="getSecondDirectName(I),getFieldType(I),tAG_LONG,importedClasses,tAG_DOUBLE,getPtr1(I),getClassName(I),getName(Ljreversepro.reflect.JConstantPoolEntry;),listEntries,addClassEntry(I),getFieldName(I),getEntryInfo(),isTagDouble(I),tAG_UTF8,getMaxCpEntry(),tAG_NOTHING,getPtr2(I),addIntegerEntry(Ljava.lang.String;),getImportedClasses(),addStringEntry(I),sTR_INVALID,addUtf8Entry(Ljava.lang.String;),tAG_FIELDREF,tAG_FLOAT,addMethodRefEntry(II),getLdcString(I),addLongEntry(Ljava.lang.String;),tAG_CLASS,tAG_METHODREF,tAG_NAMETYPE,addFloatEntry(Ljava.lang.String;),pTR_INVALID,addDoubleEntry(Ljava.lang.String;),getEntryInfo(I),addNullEntry(),getSingleEntryInfo(Ljava.lang.StringBuffer;I),getType(Ljreversepro.reflect.JConstantPoolEntry;),tAG_INTERFACEREF,getFirstDirectName(I),getTagDescriptor(I),getDataType(I),getTagByte(I),getBasicDataTypeValue(I),addFieldRefEntry(II),addInterfaceRefEntry(II),getTagName(I),addNameTypeEntry(II),tAG_STRING,tAG_INTEGER,getUtf8String(I),getEntries(),getCpValue(I),JConstantPool(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,288"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="277,666"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="jreversepro.reflect/JConstantPool->jreversepro.reflect/JImport" source="//@children.6" target="//@children.5" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="6,58"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JConstantPool->jreversepro.reflect/JImport" source="//@children.6" target="//@children.5" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,59"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JConstantPool->jreversepro.reflect/JConstantPoolEntry" source="//@children.6" target="//@children.1" targetEnd="//@children.6/@sourceConnections.2/@children.2" label="//@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,34" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,24"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JConstantPool->jreversepro.reflect/JImport" source="//@children.6" target="//@children.5" targetEnd="//@children.6/@sourceConnections.3/@children.2" label="//@children.6/@sourceConnections.3/@children.0" sourceEnd="//@children.6/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="1,59"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0 //@children.10/@sourceConnections.8 //@children.10/@sourceConnections.11" name="JInstruction" location="4040,1660" size="115,59" id="jreversepro.reflect/JInstruction" runTimeClassModel="index,equals(Ljava.lang.Object;),getArgUnsignedInt(I),position,iNVALID_VAR_INDEX,next,getArgByte(I),getOffset(),referredVariable(),getArgUnsignedByte(I),getArgUnsignedShort(I),JInstruction(II[BZ),getArgUnsignedWide(I),getTargetPc2(),prev,getArgUnsignedByte(),insName,isInvokeIns(),next(),getArgWide(I),getArgUnsignedWide(),getTargetPcW(),isStoreInstruction(),toString(),wide,isAnIfIns(),append(Ljreversepro.reflect.JInstruction;),isEndOfLine(),getArgInt(),args,length,getNextIndex(),getConditionalOperator(),getLength(),getInsName(),getArgUnsignedInt(),getTargetPc(),opcode,getArgByte(),getArgShort(),getArgUnsignedShort(),getArgInt(I),isASwitchIns(),isEndOfCatch(),prev(),getArgWide(),getArgShort(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,180"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="434,666"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.3" name="JField" location="3981,1760" size="81,59" id="jreversepro.reflect/JField" runTimeClassModel="setValue(Ljava.lang.String;),value,getValue(),JField()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,18"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,54"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jreversepro.reflect/JMember&lt;-jreversepro.reflect/JField" source="//@children.8" target="//@children.10/@sourceConnections.6" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.4 //@children.10/@sourceConnections.6" name="JMember" location="3950,1598" size="101,59" id="jreversepro.reflect/JMember" runTimeClassModel="getDatatype(),getName(),aCC_NATIVE,aCC_ABSTRACT,isStatic(),getQualifierName(),aCC_PROTECTED,aCC_TRANSIENT,datatype,setQualifier(I),aCC_SYNCHRONIZED,getStringRep(IZ),aCC_FINAL,getQualifier(),aCC_PRIVATE,aCC_STATIC,isFinal(),aCC_STRICT,setDatatype(Ljava.lang.String;),setName(Ljava.lang.String;),qualifier,name,aCC_VOLATILE,aCC_PUBLIC">
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,252"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="331,180"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.2" name="JMethod" location="3750,1730" size="96,59" id="jreversepro.reflect/JMethod" runTimeClassModel="setSignature(Ljava.lang.String;),getArgArray(II),bytecodes,blockStack,addLineOfCode(Ljreversepro.reflect.JLineOfCode;),getReturnType(),getBytes(),getNextInstruction(I),maxLocals,getMaxLocals(),maxStack,getMaxStack(),methodBlock,lineTable,addBlock(Ljreversepro.reflect.method.JBlockObject;),getThrowsClause(Ljreversepro.reflect.JImport;),isStatic(),instructions,getFirstIns(),setThrowsClasses(Ljava.util.List;),getLocalStackInfo(),exceptionBlocks,getStringifiedBytecode(),signature,removeCurrentBlock(),getMethodHeader(Z),getThrowsClasses(),getArgList(),symbolTable,getLineTable(),removeLastLineOfCode(),mInfoClass,normalize(),closeBlock(),setMaxStack(I),readTargetSwitch(I),setLineTable(Ljreversepro.reflect.JLineNumberTable;),setMaxLocals(I),getMethodAsString(ZZ),getexceptionBlocks(),dealLookupSwitch(I),addExceptionBlock(IIILjava.lang.String;),setBytes([B),getInstructions(),setStringifiedBytecode(Ljava.lang.String;),dealTableSwitch(I),firstIns,throwsClasses,getBlock(),getInstruction(I),JMethod(Ljreversepro.reflect.JClassInfo;),bytecodeAsString,getSignature(),getAllCatchJExceptions(),setSymbolTable(Ljreversepro.runtime.JSymbolTable;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="155,252"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="422,738"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="jreversepro.reflect/JMethod->jreversepro.reflect/JInstruction" source="//@children.10" target="//@children.7" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,14" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,42"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JMethod->jreversepro.reflect/JImport" source="//@children.10" target="//@children.5" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,49"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JMethod->jreversepro.reflect/JLineOfCode" source="//@children.10" target="//@children.2" targetEnd="//@children.10/@sourceConnections.2/@children.2" label="//@children.10/@sourceConnections.2/@children.0" sourceEnd="//@children.10/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,49"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JMethod->jreversepro.reflect/JLineNumberTable" source="//@children.10" target="//@children.0" targetEnd="//@children.10/@sourceConnections.3/@children.2" label="//@children.10/@sourceConnections.3/@children.0" sourceEnd="//@children.10/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="42,59"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JMethod->jreversepro.reflect/JException" source="//@children.10" target="//@children.4" targetEnd="//@children.10/@sourceConnections.4/@children.2" label="//@children.10/@sourceConnections.4/@children.0" sourceEnd="//@children.10/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,49" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="jreversepro.reflect/JMethod->jreversepro.reflect/JClassInfo" source="//@children.10" target="//@children.3" targetEnd="//@children.10/@sourceConnections.5/@children.2" label="//@children.10/@sourceConnections.5/@children.0" sourceEnd="//@children.10/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,18"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.8/@sourceConnections.0" autoLocated="true" id="jreversepro.reflect/JMember&lt;-jreversepro.reflect/JMethod" source="//@children.10" target="//@children.9" targetEnd="//@children.10/@sourceConnections.6/@children.1" sourceEnd="//@children.10/@sourceConnections.6/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="47,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,58" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="jreversepro.reflect/JMethod->jreversepro.reflect/JImport" source="//@children.10" target="//@children.5" targetEnd="//@children.10/@sourceConnections.7/@children.2" label="//@children.10/@sourceConnections.7/@children.0" sourceEnd="//@children.10/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,55"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JMethod->jreversepro.reflect/JInstruction" source="//@children.10" target="//@children.7" targetEnd="//@children.10/@sourceConnections.8/@children.2" label="//@children.10/@sourceConnections.8/@children.0" sourceEnd="//@children.10/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,59"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="jreversepro.reflect/JMethod->jreversepro.reflect/JException" source="//@children.10" target="//@children.4" targetEnd="//@children.10/@sourceConnections.9/@children.2" label="//@children.10/@sourceConnections.9/@children.0" sourceEnd="//@children.10/@sourceConnections.9/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,51" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JMethod->jreversepro.reflect/JImport" source="//@children.10" target="//@children.5" targetEnd="//@children.10/@sourceConnections.10/@children.2" label="//@children.10/@sourceConnections.10/@children.0" sourceEnd="//@children.10/@sourceConnections.10/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,12" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,59"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JMethod->jreversepro.reflect/JInstruction" source="//@children.10" target="//@children.7" targetEnd="//@children.10/@sourceConnections.11/@children.2" label="//@children.10/@sourceConnections.11/@children.0" sourceEnd="//@children.10/@sourceConnections.11/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,54"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jreversepro.reflect/JMethod->jreversepro.reflect/JException" source="//@children.10" target="//@children.4" targetEnd="//@children.10/@sourceConnections.12/@children.2" label="//@children.10/@sourceConnections.12/@children.0" sourceEnd="//@children.10/@sourceConnections.12/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,59" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,12"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" Minimize="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=0"/>
+  <boardSetting snapToGeometry="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

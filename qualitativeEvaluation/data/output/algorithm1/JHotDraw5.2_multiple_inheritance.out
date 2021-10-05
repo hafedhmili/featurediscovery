@@ -1,0 +1,89 @@
+=====Multiple Inheritance Candidates for Projet JHotDraw5.2=====
+	29 instances
+GOOD: Type: CH.ifa.draw.applet.DrawApplet
+		extends: javax.swing.JApplet, 
+		implements: CH.ifa.draw.framework.DrawingEditor, CH.ifa.draw.util.PaletteListener, 
+GOOD: Type: CH.ifa.draw.application.DrawApplication
+		extends: javax.swing.JFrame, 
+		implements: CH.ifa.draw.framework.DrawingEditor, CH.ifa.draw.util.PaletteListener, 
+NOT GOOD (a utility interface, a marker interface): Type: CH.ifa.draw.contrib.Layouter
+		extends: Serializable, Storable, 
+		implements: 
+GOOD: Type: CH.ifa.draw.contrib.GraphicalCompositeFigure
+		extends: CH.ifa.draw.standard.CompositeFigure, 
+		implements: CH.ifa.draw.contrib.Layoutable, 
+GOOD: Type: CH.ifa.draw.contrib.MDI_DrawApplication
+		extends: CH.ifa.draw.application.DrawApplication, 
+		implements: javax.swing.event.InternalFrameListener, 
+NOT GOOD (two marker interfaces,  a utility interface): Type: CH.ifa.draw.figures.LineDecoration
+		extends: Storable, Cloneable, Serializable, 
+		implements: 
+GOOD: Type: CH.ifa.draw.figures.TextFigure
+		extends: CH.ifa.draw.figures.AttributeFigure, 
+		implements: CH.ifa.draw.framework.FigureChangeListener, CH.ifa.draw.standard.TextHolder, 
+GOOD: Type: CH.ifa.draw.figures.LineConnection
+		extends: CH.ifa.draw.figures.PolyLineFigure, 
+		implements: CH.ifa.draw.framework.ConnectionFigure, 
+NOT GOOD (marker interfaces): Type: CH.ifa.draw.figures.FigureAttributes
+		extends: java.lang.Object, 
+		implements: java.lang.Cloneable, java.io.Serializable, 
+GOOD: Type: CH.ifa.draw.figures.ImageFigure
+		extends: CH.ifa.draw.figures.AttributeFigure, 
+		implements: java.awt.image.ImageObserver, 
+GOOD: Type: CH.ifa.draw.framework.DrawingView
+		extends: ImageObserver, DrawingChangeListener, 
+		implements: 
+NOT GOOD (marker interfaces): Type: CH.ifa.draw.framework.Figure
+		extends: Storable, Cloneable, Serializable, 
+		implements: 
+NOT GOOD (marker interfaces): Type: CH.ifa.draw.framework.Connector
+		extends: Serializable, Storable, 
+		implements: 
+BORDER LINE: a utility super type, with a domain supertype. Type: CH.ifa.draw.framework.Drawing
+		extends: Storable, FigureChangeListener, Serializable, 
+		implements: 
+NOT GOOD: Type: CH.ifa.draw.framework.Locator
+		extends: Storable, Serializable, Cloneable, 
+		implements: 
+GOOD: Type: CH.ifa.draw.framework.ConnectionFigure
+		extends: Figure, FigureChangeListener, 
+		implements: 
+GOOD: Type: CH.ifa.draw.samples.javadraw.JavaDrawViewer
+		extends: javax.swing.JApplet, 
+		implements: CH.ifa.draw.framework.DrawingEditor, 
+GOOD: Type: CH.ifa.draw.samples.javadraw.BouncingDrawing
+		extends: CH.ifa.draw.standard.StandardDrawing, 
+		implements: CH.ifa.draw.util.Animatable, 
+GOOD: Type: CH.ifa.draw.standard.DecoratorFigure
+		extends: CH.ifa.draw.standard.AbstractFigure, 
+		implements: CH.ifa.draw.framework.FigureChangeListener, 
+BORDER LINE: a domain interface with a utility interface Type: CH.ifa.draw.standard.AbstractLocator
+		extends: 
+		implements: CH.ifa.draw.framework.Locator, CH.ifa.draw.util.Storable, java.lang.Cloneable, 
+GOOD: Type: CH.ifa.draw.standard.FigureChangeEventMulticaster
+		extends: java.awt.AWTEventMulticaster, 
+		implements: CH.ifa.draw.framework.FigureChangeListener, 
+NOT GOOD (marker interface) Type: CH.ifa.draw.standard.GridConstrainer
+		extends: 
+		implements: CH.ifa.draw.framework.PointConstrainer, java.io.Serializable, 
+GOOD: Type: CH.ifa.draw.standard.CompositeFigure
+		extends: CH.ifa.draw.standard.AbstractFigure, 
+		implements: CH.ifa.draw.framework.FigureChangeListener, 
+GOOD: Type: CH.ifa.draw.standard.StandardDrawing
+		extends: CH.ifa.draw.standard.CompositeFigure, 
+		implements: CH.ifa.draw.framework.Drawing, 
+GOOD: Type: CH.ifa.draw.standard.StandardDrawingView
+		extends: javax.swing.JPanel, 
+		implements: CH.ifa.draw.framework.DrawingView, java.awt.event.MouseListener, java.awt.event.MouseMotionListener, java.awt.event.KeyListener, 
+GOOD: Type: CH.ifa.draw.util.CommandChoice
+		extends: javax.swing.JComboBox, 
+		implements: java.awt.event.ItemListener, 
+GOOD: Type: CH.ifa.draw.util.CommandMenu
+		extends: javax.swing.JMenu, 
+		implements: java.awt.event.ActionListener, 
+GOOD: Type: CH.ifa.draw.util.CommandButton
+		extends: javax.swing.JButton, 
+		implements: java.awt.event.ActionListener, 
+GOOD: Type: CH.ifa.draw.util.PaletteButton
+		extends: javax.swing.JButton, 
+		implements: java.awt.event.MouseListener, java.awt.event.MouseMotionListener, 
